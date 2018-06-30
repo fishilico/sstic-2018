@@ -1,0 +1,84 @@
+\newcommand{\timelinenodes}[3]{
+    \node[below of=machine_#1, node distance=#3] (machine_#2) {};
+    \node[below of=register_#1, node distance=#3] (register_#2) {};
+    \node[below of=jssrv_#1, node distance=#3] (jssrv_#2) {};
+    \node[below of=wasmsrv_#1, node distance=#3] (wasmsrv_#2) {};
+    \node[below of=relay_#1, node distance=#3] (relay_#2) {};
+}
+\newcommand{\curvedmach}[3]{
+    \node[below of=machine_#1, node distance=.7cm] (machine_#1_text1) {};
+    \node[right of=machine_#1_text1, node distance=.5cm, anchor=west] (machine_#1_text2) {#3};
+    \draw[->] (machine_#1) to [out=-50,in=50] (machine_#2);
+}
+
+\begin{tikzpicture}[node distance=2cm,auto,>=stealth']
+    \node[] (machine_top) {192.168.231.123};
+    \node[right of=machine_top, node distance=5.7cm] (register_top) {104.20.251.41};
+    \node[right of=register_top, node distance=3.1cm] (jssrv_top) {10.241.20.18};
+    \node[right of=jssrv_top, node distance=2.2cm] (wasmsrv_top) {10.141.20.18};
+    \node[right of=wasmsrv_top, node distance=2.2cm] (relay_top) {192.168.23.213};
+
+    \node[below of=register_top, node distance=2.4cm] (register_smallground) {};
+
+    \timelinenodes{top}{reg_1}{1.2cm}
+    \timelinenodes{reg_1}{reg_2}{.3cm}
+    \timelinenodes{reg_1}{stage1_1}{1.8cm}
+    \timelinenodes{stage1_1}{stage1_2}{.3cm}
+    \timelinenodes{stage1_1}{utils_1}{1.2cm}
+    \timelinenodes{utils_1}{utils_2}{.3cm}
+    \timelinenodes{utils_2}{bkjs_1}{1.7cm}
+    \timelinenodes{bkjs_1}{bkjs_2}{.3cm}
+    \timelinenodes{bkjs_1}{bkwasm_1}{1.2cm}
+    \timelinenodes{bkwasm_1}{bkwasm_2}{.3cm}
+    \timelinenodes{bkwasm_1}{payload_1}{1.2cm}
+    \timelinenodes{payload_1}{payload_2}{.3cm}
+    \timelinenodes{payload_2}{stage2_1}{.9cm}
+    \timelinenodes{stage2_1}{stage2_2}{.3cm}
+    \timelinenodes{stage2_2}{password_1}{1.7cm}
+    \timelinenodes{password_1}{password_2}{.3cm}
+    \timelinenodes{password_2}{write}{1.7cm}
+    \timelinenodes{write}{exec}{1.7cm}
+    \timelinenodes{exec}{ground}{1cm}
+
+    \draw[dashed] (machine_top) -- (machine_ground);
+    \draw[dashed] (register_top) -- (register_smallground);
+    \draw[dashed] (jssrv_top) -- (jssrv_ground);
+    \draw[dashed] (wasmsrv_top) -- (wasmsrv_ground);
+    \draw[dashed] (relay_top) -- (relay_ground);
+
+
+    \draw[->] (machine_reg_1) -- node[above,scale=1,midway]{\url{http://www.theregister.co.uk/}} (register_reg_1);
+    \draw[<-] (machine_reg_2) -- node[below,scale=1,midway]{balise <script> malveillante} (register_reg_2);
+
+    \draw[->] (machine_stage1_1) -- node[above,scale=1,midway]{\url{http://10.241.20.18:8080/stage1.js}} (jssrv_stage1_1);
+    \draw[<-] (machine_stage1_2) -- node[below,scale=1,midway]{} (jssrv_stage1_2);
+
+    \draw[->] (machine_utils_1) -- node[above,scale=1,midway]{\url{http://10.241.20.18:8080/utils.js}} (jssrv_utils_1);
+    \draw[<-] (machine_utils_2) -- node[below,scale=1,midway]{} (jssrv_utils_2);
+
+    \curvedmach{utils_2}{bkjs_1}{\texttt{doit}: préparation de \texttt{sab\_view}}
+
+    \draw[->] (machine_bkjs_1) -- node[above,scale=1,midway]{\url{http://10.241.20.18:8080/blockcipher.js?...}} (jssrv_bkjs_1);
+    \draw[<-] (machine_bkjs_2) -- node[below,scale=1,midway]{} (jssrv_bkjs_2);
+
+    \draw[->] (machine_bkwasm_1) -- node[above,scale=1,midway]{\url{http://10.141.20.18:8080/blockcipher.wasm?...}} (wasmsrv_bkwasm_1);
+    \draw[<-] (machine_bkwasm_2) -- node[below,scale=1,midway]{} (wasmsrv_bkwasm_2);
+
+    \draw[->] (machine_payload_1) -- node[above,scale=1,midway]{\url{http://10.241.20.18:8080/payload.js?...}} (jssrv_payload_1);
+    \draw[<-] (machine_payload_2) -- node[below,scale=1,midway]{} (jssrv_payload_2);
+
+    \draw[->] (machine_stage2_1) -- node[above,scale=1,midway]{\url{http://10.241.20.18:8080/stage2.js?...}} (jssrv_stage2_1);
+    \draw[<-] (machine_stage2_2) -- node[below,scale=1,midway]{} (jssrv_stage2_2);
+
+    \curvedmach{stage2_2}{password_1}{\texttt{pwn}: mise en place de \texttt{memory.read}, \texttt{memory.write}, etc.}
+
+    \draw[->] (machine_password_1) -- node[above,scale=1,midway]{\url{https://10.241.20.18:1443/password?...}} (jssrv_password_1);
+    \draw[<-] (machine_password_2) -- node[below,scale=1,midway]{} (jssrv_password_2);
+
+    \curvedmach{password_2}{write}{\texttt{decryptAndExecPayload}: déchiffrement de \texttt{payload.js}}
+    \curvedmach{write}{exec}{\texttt{drop\_exec}: écriture et lancement de \texttt{/tmp/.f4ncyn0un0urs}}
+    \draw[<->] (machine_exec) -- node[below,scale=1,midway]{Communication avec \texttt{192.168.23.213:31337}} (relay_exec);
+
+\end{tikzpicture}
+\let\timelinenodes\undefined
+\let\curvedmach\undefined

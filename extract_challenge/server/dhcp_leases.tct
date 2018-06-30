@@ -1,0 +1,31 @@
+var/lib/dhcp/dhclient.enp1s0.leases
+lease {
+  interface "enp1s0";
+  fixed-address 195.154.105.12;
+  filename "pxelinux.0";
+  option subnet-mask 255.255.255.0;
+  option routers 195.154.105.1;
+  option dhcp-lease-time 4294967295;
+  option dhcp-message-type 5;
+  option domain-name-servers 62.210.16.6,62.210.16.7;
+  option dhcp-server-identifier 62.210.18.5;
+  option domain-name "online.net";
+  renew 3 2018/03/07 16:15:56;
+  rebind 3 2018/03/07 16:15:56;
+  expire 3 2018/03/07 16:15:56;
+}
+lease {
+  interface "enp1s0";
+  fixed-address 195.154.105.12;
+  filename "pxelinux.0";
+  option subnet-mask 255.255.255.0;
+  option routers 195.154.105.1;
+  option dhcp-lease-time 4294967295;
+  option dhcp-message-type 5;
+  option domain-name-servers 62.210.16.6,62.210.16.7;
+  option dhcp-server-identifier 62.210.18.5;
+  option domain-name "online.net";
+  renew 1 2086/03/25 19:30:43;
+  rebind 2 2137/04/09 03:56:12;
+  expire 6 2154/04/13 22:44:50;
+}

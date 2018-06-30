@@ -1,0 +1,191 @@
+% "THE BEER-WARE LICENSE" (Revision 42)
+%
+% Nicolas Iooss wrote this file in 2018.  As long as you retain this notice you
+% can do whatever you want with this stuff. If we meet some day, and you think
+% this stuff is worth it, you can buy me a beer in return.
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[pdftex]{hyperref}
+\usepackage{epigraph}
+\usepackage{framed}
+\usepackage{geometry}
+\usepackage{bbm}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage[toc,page]{appendix}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+\usepackage{fancybox}
+\usepackage{fancyvrb} % verbatim replacement that allows latex
+\usepackage{fancyref}
+\usepackage[most]{tcolorbox}
+\usepackage{amsmath,array}
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning,arrows}
+
+\geometry{%
+a4paper,
+body={160mm,250mm},
+left=25mm,top=25mm,
+headheight=7mm,headsep=4mm,
+marginparsep=4mm,marginparwidth=5mm}
+
+\hypersetup{
+    colorlinks,
+    linkcolor={blue!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+\setlength\epigraphwidth{.45\textwidth}
+\setlength\epigraphrule{0pt}
+\newcommand{\epiquote}[2]{\epigraph{\small\itshape{#1}}{--- \itshape{#2}}}
+
+% fancyref ":" does not like French
+\renewcommand*{\fancyrefargdelim}{-}
+
+% Header
+\title{Solution du Challenge SSTIC 2018}
+\author{Nicolas Iooss}
+\date{31 mars 2018 - 6 avril 2018}
+
+\makeatletter
+  \hypersetup{
+    pdftitle = {\@title},
+    pdfauthor = {\@author}
+  }
+\makeatother
+
+% Custom commands
+\newcommand{\todo}[1]{\fcolorbox{red}{yellow}{TODO: #1}}
+\newcommand{\bksl}{\char`\\} % Backslash
+\newcommand{\lsl}[1]{\textless{}\textless{} #1} % <<
+\newcommand{\lsr}[1]{\textgreater{}\textgreater{} #1} % >>
+\newcommand{\stophighlight}[1]{} % Stop buggy highlighting in gedit
+
+\newcommand{\screenshotwr}[4]{%
+\begin{figure}[htbp]%
+\centering%
+\includegraphics[width=#1]{#3}%
+\caption{#4}%
+\label{fig:#2}%
+\end{figure}%
+}
+\newcommand{\screenshotr}[3]{\screenshotw{.7\textwidth}{#1}{#2}{#3}}
+
+% Flags
+\newlength{\flagnamewidth}
+\newcommand{\intermediateflagOLD}[2]{%
+    \begin{center}%
+        \settowidth{\flagnamewidth}{« #1 »}%
+        \doublebox{%
+            \raisebox{3ex}{« #1 »}\hspace{-\flagnamewidth}\hspace{3em}%
+            \begin{minipage}{0.6\textwidth}%
+                \texttt{#2}%
+            \end{minipage}%
+        }%
+    \end{center}%
+}
+\newcommand{\intermediateflagw}[3]{%
+    \begin{center}%
+        \begin{tcolorbox}[
+            oversize,
+            enlarge top by=1mm,
+            enlarge bottom by=1mm,
+            enhanced jigsaw,
+            interior hidden,
+            fuzzy halo=1mm with green,
+            fonttitle=\bfseries\upshape,
+            colframe=green!75!black,
+            coltitle=green!50!blue!75!black,
+            colbacktitle=green!75!white,
+            %colback=yellow!5!white,
+            title=« #2 »,
+            width=#1]
+            \centering\texttt{#3}%
+        \end{tcolorbox}%
+    \end{center}%
+}
+\newcommand{\intermediateflag}[2]{\intermediateflagw{.6\textwidth}{#1}{#2}}
+
+
+\renewcommand{\appendixname}{Annexes}
+\renewcommand{\appendixpagename}{Annexes}
+\renewcommand{\appendixtocname}{Annexes}
+
+\setlength{\parskip}{.6\baselineskip}
+
+% Needed since pandoc 1.14
+% Reduces space between elements of a list (written in markdown)
+% For more space between the elements, add an empty line
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\definecolor{shadecolor}{gray}{0.95}
+\newenvironment{Shaded}{\begin{shaded}}{\end{shaded}}
+% https://github.com/Carreau/nbconvert/blob/537500a3288e64a4fcfc8af6847bd0ce0767163e/nbconvert/templates/latex/base.tplx
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\ExtensionTok}[1]{{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+
+
+% Document
+\begin{document}
+\maketitle
+
+\section*{Introduction}
+
+\input{0_introduction.out.tex}
+
+\clearpage
+{\setlength{\parskip}{.4\baselineskip}\tableofcontents}
+
+\clearpage
+\input{1_investigation.out.tex}
+\clearpage
+\input{2_attaque.out.tex}
+\clearpage
+\input{3_bonus.out.tex}
+\clearpage
+\input{9_fin.out.tex}
+
+\clearpage
+\begin{appendices}
+\input{9a_github.out.tex}
+\input{9b_decrypt_payload_js.out.tex}
+\input{9c_exploit.out.tex}
+\end{appendices}
+
+\end{document}

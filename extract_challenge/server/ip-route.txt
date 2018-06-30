@@ -1,0 +1,2 @@
+default via 195.154.105.1 dev enp1s0 
+195.154.105.0/24 dev enp1s0 proto kernel scope link src 195.154.105.12 

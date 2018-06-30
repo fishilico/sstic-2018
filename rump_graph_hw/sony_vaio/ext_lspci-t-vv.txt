@@ -1,0 +1,22 @@
+-[0000:00]-+-00.0  Intel Corporation 2nd Generation Core Processor Family DRAM Controller
+           +-02.0  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller
+           +-16.0  Intel Corporation 6 Series/C200 Series Chipset Family MEI Controller #1
+           +-1a.0  Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2
+           +-1b.0  Intel Corporation 6 Series/C200 Series Chipset Family High Definition Audio Controller
+           +-1c.0-[02]----00.0  Intel Corporation Centrino Advanced-N 6230 [Rainbow Peak]
+           +-1c.1-[03]----00.0  Realtek Semiconductor Co., Ltd. RTS5209 PCI Express Card Reader
+           +-1c.2-[04]----00.0  NEC Corporation uPD720200 USB 3.0 Host Controller
+           +-1c.3-[05]----00.0  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+           +-1c.6-[08-20]----00.0-[0a-1d]--+-00.0-[0b]--
+           |                               +-03.0-[0c]--
+           |                               \-04.0-[14-1d]----00.0-[15-1d]--+-03.0-[16]--+-00.0  Advanced Micro Devices, Inc. [AMD/ATI] Whistler [Radeon HD 6730M/6770M/7690M XT]
+           |                                                               |            \-00.1  Advanced Micro Devices, Inc. [AMD/ATI] Turks HDMI Audio [Radeon HD 6500/6600 / 6700M Series]
+           |                                                               \-04.0-[17-1d]----00.0-[18-1d]--+-00.0-[19]----00.0  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+           |                                                                                               +-01.0-[1a]----00.0  Marvell Technology Group Ltd. 88SE6121 SATA II / PATA Controller
+           |                                                                                               +-02.0-[1b]----00.0  NEC Corporation uPD720200 USB 3.0 Host Controller
+           |                                                                                               +-03.0-[1c]--
+           |                                                                                               \-04.0-[1d]--
+           +-1d.0  Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1
+           +-1f.0  Intel Corporation HM67 Express Chipset Family LPC Controller
+           +-1f.2  Intel Corporation 82801 Mobile SATA Controller [RAID mode]
+           \-1f.3  Intel Corporation 6 Series/C200 Series Chipset Family SMBus Controller

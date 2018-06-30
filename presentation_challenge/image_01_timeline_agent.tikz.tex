@@ -1,0 +1,44 @@
+\newcommand{\timelinenodes}[3]{
+    \node[below of=machine_#1, node distance=#3] (machine_#2) {};
+    \node[below of=relay_#1, node distance=#3] (relay_#2) {};
+    \node[below of=root_#1, node distance=#3] (root_#2) {};
+}
+\begin{tikzpicture}[node distance=2cm,auto,>=stealth']
+    \node[text width=3cm, align=center] (machine_top) {Agent \texttt{192.168.231.123} \emph{Vous êtes ici}};
+    \node[right of=machine_top, node distance=8cm, text width=3cm, align=center] (relay_top) {Relai \texttt{192.168.23.213} \texttt{TCP:31337}};
+    \node[right of=relay_top, node distance=4.5cm, text width=4cm, align=center] (root_top) {Serveur racine \texttt{195.154.105.12} \texttt{TCP:36735}};
+
+    \timelinenodes{top}{myrsa}{1.5cm}
+    \timelinenodes{myrsa}{peerrsa}{.8cm}
+    \timelinenodes{peerrsa}{aesdec}{.8cm}
+    \timelinenodes{aesdec}{aesenc}{.8cm}
+    \timelinenodes{aesenc}{peer_req1}{.8cm}
+    \timelinenodes{peer_req1}{peer_req2}{.3cm}
+    \timelinenodes{peer_req1}{peer_resp}{.6cm}
+    \timelinenodes{peer_resp}{relay_stop}{.4cm}
+    \timelinenodes{peer_resp}{lshome_req}{.9cm}
+    \timelinenodes{lshome_req}{lshome_resp}{.6cm}
+    \timelinenodes{lshome_resp}{lshome_done}{.6cm}
+
+    \timelinenodes{lshome_done}{ground}{.5cm}
+
+    \draw[dashed] (machine_top) -- (machine_ground);
+    \draw[dashed] (relay_top) -- (relay_relay_stop);
+    \draw[dashed] (root_top) -- (root_ground);
+
+    \draw[->,color=red!30!black] (machine_myrsa) -- node[above,scale=1,midway]{\small Clé publique RSA-2048 \emph{agent}} (relay_myrsa);
+    \draw[<-,color=red!30!black] (machine_peerrsa) -- node[above,scale=1,midway]{\small Clé publique RSA-2048 \emph{serveur}} (relay_peerrsa);
+
+    \draw[->,color=red!30!black] (machine_aesdec) -- node[above,scale=1,midway]{\small Clé AES chiffrée avec la clé \emph{serveur}} (relay_aesdec);
+    \draw[<-,color=red!30!black] (machine_aesenc) -- node[above,scale=1,midway]{\small Clé AES chiffrée avec la clé \emph{agent}} (relay_aesenc);
+
+    \draw[->] (machine_peer_req1) -- node[above,scale=1,midway]{\small\texttt{PEER}} (relay_peer_req1);
+    \draw[->,dashed] (relay_peer_req2) -- node[above,scale=1,midway]{\small\texttt{PEER}} (root_peer_req2);
+    \draw[<-] (machine_peer_resp) -- node[above,scale=1,midway]{\small\texttt{PEER\_REPLY} « \texttt{195.154.105.12:36735} »} (relay_peer_resp);
+
+    \draw[<-] (machine_lshome_req) -- node[above,scale=1,midway]{\small\texttt{CMD} « \texttt{ls -la /home} »} (root_lshome_req);
+    \draw[->] (machine_lshome_resp) -- node[above,scale=1,midway]{\small\texttt{CMD\_CONTENT} « ... »} (root_lshome_resp);
+    \draw[->] (machine_lshome_done) -- node[above,scale=1,midway]{\small\texttt{CMD\_DONE}} (root_lshome_done);
+
+\end{tikzpicture}
+\let\timelinenodes\undefined

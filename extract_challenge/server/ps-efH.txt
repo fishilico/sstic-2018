@@ -1,0 +1,9 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+sstic    25160 25154  0 20:10 ?        00:00:02 sshd: sstic@pts/0
+sstic    25161 25160  0 20:10 pts/0    00:00:00   -bash
+sstic    26067 25161  0 20:46 pts/0    00:00:00     ps -efH
+sstic    29810     1  0 Mar29 ?        00:00:01 SCREEN
+sstic    29811 29810  0 Mar29 pts/3    00:00:00   /bin/bash
+sstic    25153 29811  0 20:09 pts/3    00:00:01     /home/sstic/agent -c SSTIC2018{f2ff2a7ed70d4ab72c52948be06fee20} -l 36735 -i ceqejeve
+sstic    29027     1  0 Mar29 ?        00:00:00 /lib/systemd/systemd --user
+sstic    29028 29027  0 Mar29 ?        00:00:00   (sd-pam)

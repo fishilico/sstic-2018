@@ -1,0 +1,103 @@
+\newcommand{\timelinenodes}[3]{
+    \node[below of=machine_#1, node distance=#3] (machine_#2) {};
+    \node[below of=relay_#1, node distance=#3] (relay_#2) {};
+    \node[below of=root_#1, node distance=#3] (root_#2) {};
+}
+\begin{tikzpicture}[node distance=2cm,auto,>=stealth']
+    \node[text width=3cm, align=center] (machine_top) {\texttt{192.168.231.123} \texttt{0x28e48f9f80ddf725}};
+    \node[right of=machine_top, node distance=7cm, text width=3cm, align=center] (relay_top) {\texttt{192.168.23.213:31337} \texttt{0xdf8e9f2b91cee2d4}};
+    \node[right of=relay_top, node distance=4.5cm, text width=3cm, align=center] (root_top) {\texttt{195.154.105.12:36735} \texttt{0}};
+
+    \timelinenodes{top}{myrsa}{1.5cm}
+    \timelinenodes{myrsa}{peerrsa}{.8cm}
+    \timelinenodes{peerrsa}{aesdec}{.8cm}
+    \timelinenodes{aesdec}{aesenc}{.8cm}
+    \timelinenodes{aesenc}{peer_req1}{1cm}
+    \timelinenodes{peer_req1}{peer_req2}{.3cm}
+    \timelinenodes{peer_req1}{peer_resp}{.8cm}
+    \timelinenodes{peer_resp}{relay_stop}{.4cm}
+    \timelinenodes{peer_resp}{lshome_req}{1cm}
+    \timelinenodes{lshome_req}{lshome_resp}{.5cm}
+    \timelinenodes{lshome_resp}{lshome_done}{.5cm}
+    \timelinenodes{lshome_done}{lshomeuser_req}{1cm}
+    \timelinenodes{lshomeuser_req}{lshomeuser_resp}{.5cm}
+    \timelinenodes{lshomeuser_resp}{lshomeuser_done}{.5cm}
+    \timelinenodes{lshomeuser_done}{lshomeuserconf_req}{1cm}
+    \timelinenodes{lshomeuserconf_req}{lshomeuserconf_resp}{.5cm}
+    \timelinenodes{lshomeuserconf_resp}{lshomeuserconf_done}{.5cm}
+    \timelinenodes{lshomeuserconf_done}{tar_req}{1cm}
+    \timelinenodes{tar_req}{tar_resp}{.5cm}
+    \timelinenodes{tar_resp}{tar_resp2}{.2cm}
+    \timelinenodes{tar_resp2}{tar_resp3}{.2cm}
+    \timelinenodes{tar_resp3}{tar_resp4}{.2cm}
+    \timelinenodes{tar_resp4}{tar_done}{.5cm}
+    \timelinenodes{tar_done}{get_req}{1cm}
+    \timelinenodes{get_req}{get_resp1}{.5cm}
+    \timelinenodes{get_resp1}{get_resp2}{.2cm}
+    \timelinenodes{get_resp2}{get_resp3}{.2cm}
+    \timelinenodes{get_resp3}{get_resp4}{.2cm}
+    \timelinenodes{get_resp4}{get_resp5}{.2cm}
+    \timelinenodes{get_resp5}{put_req}{1cm}
+    \timelinenodes{put_req}{put_content1}{.5cm}
+    \timelinenodes{put_content1}{put_content2}{.2cm}
+    \timelinenodes{put_content2}{put_content3}{.2cm}
+    \timelinenodes{put_content3}{put_content4}{.2cm}
+    \timelinenodes{put_content4}{put_content5}{.2cm}
+    \timelinenodes{put_content5}{put_done}{1cm}
+    \timelinenodes{put_done}{get_done}{1cm}
+
+
+    \timelinenodes{get_done}{ground}{1cm}
+
+    \draw[dashed] (machine_top) -- (machine_ground);
+    \draw[dashed] (relay_top) -- (relay_relay_stop);
+    \draw[dashed] (root_top) -- (root_ground);
+
+    \draw[->,color=red] (machine_myrsa) -- node[above,scale=1,midway]{Clé publique RSA-2048 \emph{agent}} (relay_myrsa);
+    \draw[<-,color=red] (machine_peerrsa) -- node[above,scale=1,midway]{Clé publique RSA-2048 \emph{serveur}} (relay_peerrsa);
+
+    \draw[->,color=red] (machine_aesdec) -- node[above,scale=1,midway]{Clé AES chiffrée avec la clé \emph{serveur}} (relay_aesdec);
+    \draw[<-,color=red] (machine_aesenc) -- node[above,scale=1,midway]{Clé AES chiffrée avec la clé \emph{agent}} (relay_aesenc);
+
+    \draw[->] (machine_peer_req1) -- node[above,scale=1,midway]{\texttt{PEER} (destination \texttt{0})} (relay_peer_req1);
+    \draw[->] (relay_peer_req2) -- node[above,scale=1,midway]{\texttt{PEER} (destination \texttt{0})} (root_peer_req2);
+    \draw[<-] (machine_peer_resp) -- node[above,scale=1,midway]{\texttt{PEER\_REPLY} « \texttt{195.154.105.12:36735} »} (relay_peer_resp);
+
+    \draw[<-] (machine_lshome_req) -- node[above,scale=1,midway]{\texttt{CMD} « \texttt{ls -la /home} »} (root_lshome_req);
+    \draw[->] (machine_lshome_resp) -- node[above,scale=1,midway]{\texttt{CMD\_CONTENT} « ... »} (root_lshome_resp);
+    \draw[->] (machine_lshome_done) -- node[above,scale=1,midway]{\texttt{CMD\_DONE}} (root_lshome_done);
+
+    \draw[<-] (machine_lshomeuser_req) -- node[above,scale=1,midway]{\texttt{CMD} « \texttt{ls -la /home/user} »} (root_lshomeuser_req);
+    \draw[->] (machine_lshomeuser_resp) -- node[above,scale=1,midway]{\texttt{CMD\_CONTENT} « ... »} (root_lshomeuser_resp);
+    \draw[->] (machine_lshomeuser_done) -- node[above,scale=1,midway]{\texttt{CMD\_DONE}} (root_lshomeuser_done);
+
+    \draw[<-] (machine_lshomeuserconf_req) -- node[above,scale=1,midway]{\texttt{CMD} « \texttt{ls -la /home/user/confidentiel} »} (root_lshomeuserconf_req);
+    \draw[->] (machine_lshomeuserconf_resp) -- node[above,scale=1,midway]{\texttt{CMD\_CONTENT} « ... »} (root_lshomeuserconf_resp);
+    \draw[->] (machine_lshomeuserconf_done) -- node[above,scale=1,midway]{\texttt{CMD\_DONE}} (root_lshomeuserconf_done);
+
+    \draw[<-] (machine_tar_req) -- node[above,scale=1,midway]{\texttt{CMD} « \texttt{tar cvfz /tmp/confidentiel.tgz /home/user/confidentiel} »} (root_tar_req);
+    \draw[->] (machine_tar_resp) -- node[above,scale=1,midway]{\texttt{CMD\_CONTENT} « ... »} (root_tar_resp);
+    \draw[->] (machine_tar_resp2) -- node[above,scale=1,midway]{} (root_tar_resp2);
+    \draw[->] (machine_tar_resp3) -- node[above,scale=1,midway]{} (root_tar_resp3);
+    \draw[->] (machine_tar_resp4) -- node[above,scale=1,midway]{} (root_tar_resp4);
+    \draw[->] (machine_tar_done) -- node[above,scale=1,midway]{\texttt{CMD\_DONE}} (root_tar_done);
+
+    \draw[<-] (machine_get_req) -- node[above,scale=1,midway]{\texttt{GET} « \texttt{/tmp/confidentiel.tgz} »} (root_get_req);
+    \draw[->] (machine_get_resp1) -- node[above,scale=1,midway]{\texttt{GET\_CONTENT} « ... »} (root_get_resp1);
+    \draw[->] (machine_get_resp2) -- node[above,scale=1,midway]{} (root_get_resp2);
+    \draw[->] (machine_get_resp3) -- node[above,scale=1,midway]{} (root_get_resp3);
+    \draw[->] (machine_get_resp4) -- node[above,scale=1,midway]{} (root_get_resp4);
+    \draw[->] (machine_get_resp5) -- node[above,scale=1,midway]{} (root_get_resp5);
+
+    \draw[<-] (machine_put_req) -- node[above,scale=1,midway]{\texttt{PUT} « \texttt{/tmp/surprise.tgz} »} (root_put_req);
+    \draw[<-] (machine_put_content1) -- node[above,scale=1,midway]{\texttt{PUT\_CONTENT} « ... »} (root_put_content1);
+    \draw[<-] (machine_put_content2) -- node[above,scale=1,midway]{} (root_put_content2);
+    \draw[<-] (machine_put_content3) -- node[above,scale=1,midway]{} (root_put_content3);
+    \draw[<-] (machine_put_content4) -- node[above,scale=1,midway]{} (root_put_content4);
+    \draw[<-] (machine_put_content5) -- node[above,scale=1,midway]{} (root_put_content5);
+    \draw[<-] (machine_put_done) -- node[above,scale=1,midway]{\texttt{PUT\_DONE}} (root_put_done);
+
+    \draw[->] (machine_get_done) -- node[above,scale=1,midway]{\texttt{GET\_DONE}} (root_get_done);
+
+\end{tikzpicture}
+\let\timelinenodes\undefined

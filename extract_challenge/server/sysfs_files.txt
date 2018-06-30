@@ -1,0 +1,2711 @@
+/sys/kernel/irq/17/name
+00000000  66 61 73 74 65 6f 69 0a                           |fasteoi.|
+00000008
+EOF
+/sys/kernel/irq/35/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/7/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/25/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/15/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/33/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/5/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/23/name
+00000000  66 61 73 74 65 6f 69 0a                           |fasteoi.|
+00000008
+EOF
+/sys/kernel/irq/13/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/31/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/3/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/11/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/1/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/28/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/8/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/26/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/16/name
+00000000  66 61 73 74 65 6f 69 0a                           |fasteoi.|
+00000008
+EOF
+/sys/kernel/irq/34/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/6/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/24/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/14/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/32/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/4/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/22/name
+00000000  66 61 73 74 65 6f 69 0a                           |fasteoi.|
+00000008
+EOF
+/sys/kernel/irq/12/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/30/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/2/name
+EOF
+/sys/kernel/irq/20/name
+00000000  66 61 73 74 65 6f 69 0a                           |fasteoi.|
+00000008
+EOF
+/sys/kernel/irq/10/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/29/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/0/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/kernel/irq/19/name
+00000000  66 61 73 74 65 6f 69 0a                           |fasteoi.|
+00000008
+EOF
+/sys/kernel/irq/9/name
+00000000  66 61 73 74 65 6f 69 0a                           |fasteoi.|
+00000008
+EOF
+/sys/kernel/irq/27/name
+00000000  65 64 67 65 0a                                    |edge.|
+00000005
+EOF
+/sys/devices/pci0000:00/0000:00:0f.0/uevent
+00000000  50 43 49 5f 43 4c 41 53  53 3d 38 30 36 30 30 0a  |PCI_CLASS=80600.|
+00000010  50 43 49 5f 49 44 3d 38  30 38 36 3a 31 46 31 36  |PCI_ID=8086:1F16|
+00000020  0a 50 43 49 5f 53 55 42  53 59 53 5f 49 44 3d 38  |.PCI_SUBSYS_ID=8|
+00000030  30 38 36 3a 30 30 30 30  0a 50 43 49 5f 53 4c 4f  |086:0000.PCI_SLO|
+00000040  54 5f 4e 41 4d 45 3d 30  30 30 30 3a 30 30 3a 30  |T_NAME=0000:00:0|
+00000050  66 2e 30 0a 4d 4f 44 41  4c 49 41 53 3d 70 63 69  |f.0.MODALIAS=pci|
+00000060  3a 76 30 30 30 30 38 30  38 36 64 30 30 30 30 31  |:v00008086d00001|
+00000070  46 31 36 73 76 30 30 30  30 38 30 38 36 73 64 30  |F16sv00008086sd0|
+00000080  30 30 30 30 30 30 30 62  63 30 38 73 63 30 36 69  |0000000bc08sc06i|
+00000090  30 30 0a                                          |00.|
+00000093
+EOF
+/sys/devices/pci0000:00/0000:00:1f.3/i2c-1/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:1f.3/i2c-1/name
+00000000  53 4d 42 75 73 20 49 38  30 31 20 61 64 61 70 74  |SMBus I801 adapt|
+00000010  65 72 20 61 74 20 65 66  61 30 0a                 |er at efa0.|
+0000001b
+EOF
+/sys/devices/pci0000:00/0000:00:1f.3/uevent
+00000000  44 52 49 56 45 52 3d 69  38 30 31 5f 73 6d 62 75  |DRIVER=i801_smbu|
+00000010  73 0a 50 43 49 5f 43 4c  41 53 53 3d 43 30 35 30  |s.PCI_CLASS=C050|
+00000020  30 0a 50 43 49 5f 49 44  3d 38 30 38 36 3a 31 46  |0.PCI_ID=8086:1F|
+00000030  33 43 0a 50 43 49 5f 53  55 42 53 59 53 5f 49 44  |3C.PCI_SUBSYS_ID|
+00000040  3d 38 30 38 36 3a 31 46  33 43 0a 50 43 49 5f 53  |=8086:1F3C.PCI_S|
+00000050  4c 4f 54 5f 4e 41 4d 45  3d 30 30 30 30 3a 30 30  |LOT_NAME=0000:00|
+00000060  3a 31 66 2e 33 0a 4d 4f  44 41 4c 49 41 53 3d 70  |:1f.3.MODALIAS=p|
+00000070  63 69 3a 76 30 30 30 30  38 30 38 36 64 30 30 30  |ci:v00008086d000|
+00000080  30 31 46 33 43 73 76 30  30 30 30 38 30 38 36 73  |01F3Csv00008086s|
+00000090  64 30 30 30 30 31 46 33  43 62 63 30 43 73 63 30  |d00001F3Cbc0Csc0|
+000000a0  35 69 30 30 0a                                    |5i00.|
+000000a5
+EOF
+/sys/devices/pci0000:00/0000:00:00.0/uevent
+00000000  50 43 49 5f 43 4c 41 53  53 3d 36 30 30 30 30 0a  |PCI_CLASS=60000.|
+00000010  50 43 49 5f 49 44 3d 38  30 38 36 3a 31 46 30 46  |PCI_ID=8086:1F0F|
+00000020  0a 50 43 49 5f 53 55 42  53 59 53 5f 49 44 3d 30  |.PCI_SUBSYS_ID=0|
+00000030  30 30 30 3a 30 30 30 30  0a 50 43 49 5f 53 4c 4f  |000:0000.PCI_SLO|
+00000040  54 5f 4e 41 4d 45 3d 30  30 30 30 3a 30 30 3a 30  |T_NAME=0000:00:0|
+00000050  30 2e 30 0a 4d 4f 44 41  4c 49 41 53 3d 70 63 69  |0.0.MODALIAS=pci|
+00000060  3a 76 30 30 30 30 38 30  38 36 64 30 30 30 30 31  |:v00008086d00001|
+00000070  46 30 46 73 76 30 30 30  30 30 30 30 30 73 64 30  |F0Fsv00000000sd0|
+00000080  30 30 30 30 30 30 30 62  63 30 36 73 63 30 30 69  |0000000bc06sc00i|
+00000090  30 30 0a                                          |00.|
+00000093
+EOF
+/sys/devices/pci0000:00/0000:00:03.0/pci_bus/0000:03/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:03.0/0000:00:03.0:pcie001/uevent
+00000000  44 52 49 56 45 52 3d 70  63 69 65 5f 70 6d 65 0a  |DRIVER=pcie_pme.|
+00000010
+EOF
+/sys/devices/pci0000:00/0000:00:03.0/0000:00:03.0:pcie002/uevent
+00000000  44 52 49 56 45 52 3d 61  65 72 0a                 |DRIVER=aer.|
+0000000b
+EOF
+/sys/devices/pci0000:00/0000:00:03.0/uevent
+00000000  44 52 49 56 45 52 3d 70  63 69 65 70 6f 72 74 0a  |DRIVER=pcieport.|
+00000010  50 43 49 5f 43 4c 41 53  53 3d 36 30 34 30 30 0a  |PCI_CLASS=60400.|
+00000020  50 43 49 5f 49 44 3d 38  30 38 36 3a 31 46 31 32  |PCI_ID=8086:1F12|
+00000030  0a 50 43 49 5f 53 55 42  53 59 53 5f 49 44 3d 38  |.PCI_SUBSYS_ID=8|
+00000040  30 38 36 3a 38 30 38 36  0a 50 43 49 5f 53 4c 4f  |086:8086.PCI_SLO|
+00000050  54 5f 4e 41 4d 45 3d 30  30 30 30 3a 30 30 3a 30  |T_NAME=0000:00:0|
+00000060  33 2e 30 0a 4d 4f 44 41  4c 49 41 53 3d 70 63 69  |3.0.MODALIAS=pci|
+00000070  3a 76 30 30 30 30 38 30  38 36 64 30 30 30 30 31  |:v00008086d00001|
+00000080  46 31 32 73 76 30 30 30  30 38 30 38 36 73 64 30  |F12sv00008086sd0|
+00000090  30 30 30 38 30 38 36 62  63 30 36 73 63 30 34 69  |0008086bc06sc04i|
+000000a0  30 30 0a                                          |00.|
+000000a3
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/ata_port/ata6/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/host5/scsi_host/host5/state
+00000000  72 75 6e 6e 69 6e 67 0a                           |running.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/host5/scsi_host/host5/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/host5/uevent
+00000000  44 45 56 54 59 50 45 3d  73 63 73 69 5f 68 6f 73  |DEVTYPE=scsi_hos|
+00000010  74 0a                                             |t.|
+00000012
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/link6/ata_link/link6/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/link6/dev6.0/ata_device/dev6.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/link6/dev6.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/link6/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata6/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/ata_port/ata5/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/scsi_host/host4/state
+00000000  72 75 6e 6e 69 6e 67 0a                           |running.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/scsi_host/host4/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/uevent
+00000000  44 45 56 54 59 50 45 3d  73 63 73 69 5f 68 6f 73  |DEVTYPE=scsi_hos|
+00000010  74 0a                                             |t.|
+00000012
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/scsi_disk/4:0:0:0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/scsi_generic/sg0/uevent
+00000000  4d 41 4a 4f 52 3d 32 31  0a 4d 49 4e 4f 52 3d 30  |MAJOR=21.MINOR=0|
+00000010  0a 44 45 56 4e 41 4d 45  3d 73 67 30 0a           |.DEVNAME=sg0.|
+0000001d
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/model
+00000000  53 61 6e 44 69 73 6b 20  58 34 30 30 20 32 2e 35  |SanDisk X400 2.5|
+00000010  0a                                                |.|
+00000011
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/state
+00000000  72 75 6e 6e 69 6e 67 0a                           |running.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/block/sda/sda4/uevent
+00000000  4d 41 4a 4f 52 3d 38 0a  4d 49 4e 4f 52 3d 34 0a  |MAJOR=8.MINOR=4.|
+00000010  44 45 56 4e 41 4d 45 3d  73 64 61 34 0a 44 45 56  |DEVNAME=sda4.DEV|
+00000020  54 59 50 45 3d 70 61 72  74 69 74 69 6f 6e 0a 50  |TYPE=partition.P|
+00000030  41 52 54 4e 3d 34 0a                              |ARTN=4.|
+00000037
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/block/sda/sda2/uevent
+00000000  4d 41 4a 4f 52 3d 38 0a  4d 49 4e 4f 52 3d 32 0a  |MAJOR=8.MINOR=2.|
+00000010  44 45 56 4e 41 4d 45 3d  73 64 61 32 0a 44 45 56  |DEVNAME=sda2.DEV|
+00000020  54 59 50 45 3d 70 61 72  74 69 74 69 6f 6e 0a 50  |TYPE=partition.P|
+00000030  41 52 54 4e 3d 32 0a                              |ARTN=2.|
+00000037
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/block/sda/sda5/uevent
+00000000  4d 41 4a 4f 52 3d 38 0a  4d 49 4e 4f 52 3d 35 0a  |MAJOR=8.MINOR=5.|
+00000010  44 45 56 4e 41 4d 45 3d  73 64 61 35 0a 44 45 56  |DEVNAME=sda5.DEV|
+00000020  54 59 50 45 3d 70 61 72  74 69 74 69 6f 6e 0a 50  |TYPE=partition.P|
+00000030  41 52 54 4e 3d 35 0a                              |ARTN=5.|
+00000037
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/block/sda/sda3/uevent
+00000000  4d 41 4a 4f 52 3d 38 0a  4d 49 4e 4f 52 3d 33 0a  |MAJOR=8.MINOR=3.|
+00000010  44 45 56 4e 41 4d 45 3d  73 64 61 33 0a 44 45 56  |DEVNAME=sda3.DEV|
+00000020  54 59 50 45 3d 70 61 72  74 69 74 69 6f 6e 0a 50  |TYPE=partition.P|
+00000030  41 52 54 4e 3d 33 0a                              |ARTN=3.|
+00000037
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/block/sda/removable
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/block/sda/sda1/uevent
+00000000  4d 41 4a 4f 52 3d 38 0a  4d 49 4e 4f 52 3d 31 0a  |MAJOR=8.MINOR=1.|
+00000010  44 45 56 4e 41 4d 45 3d  73 64 61 31 0a 44 45 56  |DEVNAME=sda1.DEV|
+00000020  54 59 50 45 3d 70 61 72  74 69 74 69 6f 6e 0a 50  |TYPE=partition.P|
+00000030  41 52 54 4e 3d 31 0a                              |ARTN=1.|
+00000037
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/block/sda/uevent
+00000000  4d 41 4a 4f 52 3d 38 0a  4d 49 4e 4f 52 3d 30 0a  |MAJOR=8.MINOR=0.|
+00000010  44 45 56 4e 41 4d 45 3d  73 64 61 0a 44 45 56 54  |DEVNAME=sda.DEVT|
+00000020  59 50 45 3d 64 69 73 6b  0a                       |YPE=disk.|
+00000029
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/block/sda/sda6/uevent
+00000000  4d 41 4a 4f 52 3d 38 0a  4d 49 4e 4f 52 3d 36 0a  |MAJOR=8.MINOR=6.|
+00000010  44 45 56 4e 41 4d 45 3d  73 64 61 36 0a 44 45 56  |DEVNAME=sda6.DEV|
+00000020  54 59 50 45 3d 70 61 72  74 69 74 69 6f 6e 0a 50  |TYPE=partition.P|
+00000030  41 52 54 4e 3d 36 0a                              |ARTN=6.|
+00000037
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/uevent
+00000000  44 45 56 54 59 50 45 3d  73 63 73 69 5f 64 65 76  |DEVTYPE=scsi_dev|
+00000010  69 63 65 0a 44 52 49 56  45 52 3d 73 64 0a 4d 4f  |ice.DRIVER=sd.MO|
+00000020  44 41 4c 49 41 53 3d 73  63 73 69 3a 74 2d 30 78  |DALIAS=scsi:t-0x|
+00000030  30 30 0a                                          |00.|
+00000033
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/bsg/4:0:0:0/uevent
+00000000  4d 41 4a 4f 52 3d 32 35  30 0a 4d 49 4e 4f 52 3d  |MAJOR=250.MINOR=|
+00000010  30 0a 44 45 56 4e 41 4d  45 3d 62 73 67 2f 34 3a  |0.DEVNAME=bsg/4:|
+00000020  30 3a 30 3a 30 0a                                 |0:0:0.|
+00000026
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/4:0:0:0/scsi_device/4:0:0:0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/host4/target4:0:0/uevent
+00000000  44 45 56 54 59 50 45 3d  73 63 73 69 5f 74 61 72  |DEVTYPE=scsi_tar|
+00000010  67 65 74 0a                                       |get.|
+00000014
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/link5/dev5.0/ata_device/dev5.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/link5/dev5.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/link5/ata_link/link5/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/ata5/link5/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:18.0/uevent
+00000000  44 52 49 56 45 52 3d 61  68 63 69 0a 50 43 49 5f  |DRIVER=ahci.PCI_|
+00000010  43 4c 41 53 53 3d 31 30  36 30 31 0a 50 43 49 5f  |CLASS=10601.PCI_|
+00000020  49 44 3d 38 30 38 36 3a  31 46 33 32 0a 50 43 49  |ID=8086:1F32.PCI|
+00000030  5f 53 55 42 53 59 53 5f  49 44 3d 38 30 38 36 3a  |_SUBSYS_ID=8086:|
+00000040  31 46 33 32 0a 50 43 49  5f 53 4c 4f 54 5f 4e 41  |1F32.PCI_SLOT_NA|
+00000050  4d 45 3d 30 30 30 30 3a  30 30 3a 31 38 2e 30 0a  |ME=0000:00:18.0.|
+00000060  4d 4f 44 41 4c 49 41 53  3d 70 63 69 3a 76 30 30  |MODALIAS=pci:v00|
+00000070  30 30 38 30 38 36 64 30  30 30 30 31 46 33 32 73  |008086d00001F32s|
+00000080  76 30 30 30 30 38 30 38  36 73 64 30 30 30 30 31  |v00008086sd00001|
+00000090  46 33 32 62 63 30 31 73  63 30 36 69 30 31 0a     |F32bc01sc06i01.|
+0000009f
+EOF
+/sys/devices/pci0000:00/pci_bus/0000:00/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:0e.0/uevent
+00000000  50 43 49 5f 43 4c 41 53  53 3d 36 30 30 30 30 0a  |PCI_CLASS=60000.|
+00000010  50 43 49 5f 49 44 3d 38  30 38 36 3a 31 46 31 34  |PCI_ID=8086:1F14|
+00000020  0a 50 43 49 5f 53 55 42  53 59 53 5f 49 44 3d 30  |.PCI_SUBSYS_ID=0|
+00000030  30 30 30 3a 30 30 30 30  0a 50 43 49 5f 53 4c 4f  |000:0000.PCI_SLO|
+00000040  54 5f 4e 41 4d 45 3d 30  30 30 30 3a 30 30 3a 30  |T_NAME=0000:00:0|
+00000050  65 2e 30 0a 4d 4f 44 41  4c 49 41 53 3d 70 63 69  |e.0.MODALIAS=pci|
+00000060  3a 76 30 30 30 30 38 30  38 36 64 30 30 30 30 31  |:v00008086d00001|
+00000070  46 31 34 73 76 30 30 30  30 30 30 30 30 73 64 30  |F14sv00000000sd0|
+00000080  30 30 30 30 30 30 30 62  63 30 36 73 63 30 30 69  |0000000bc06sc00i|
+00000090  30 30 0a                                          |00.|
+00000093
+EOF
+/sys/devices/pci0000:00/0000:00:02.0/pci_bus/0000:02/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:02.0/0000:00:02.0:pcie002/uevent
+00000000  44 52 49 56 45 52 3d 61  65 72 0a                 |DRIVER=aer.|
+0000000b
+EOF
+/sys/devices/pci0000:00/0000:00:02.0/uevent
+00000000  44 52 49 56 45 52 3d 70  63 69 65 70 6f 72 74 0a  |DRIVER=pcieport.|
+00000010  50 43 49 5f 43 4c 41 53  53 3d 36 30 34 30 30 0a  |PCI_CLASS=60400.|
+00000020  50 43 49 5f 49 44 3d 38  30 38 36 3a 31 46 31 31  |PCI_ID=8086:1F11|
+00000030  0a 50 43 49 5f 53 55 42  53 59 53 5f 49 44 3d 38  |.PCI_SUBSYS_ID=8|
+00000040  30 38 36 3a 38 30 38 36  0a 50 43 49 5f 53 4c 4f  |086:8086.PCI_SLO|
+00000050  54 5f 4e 41 4d 45 3d 30  30 30 30 3a 30 30 3a 30  |T_NAME=0000:00:0|
+00000060  32 2e 30 0a 4d 4f 44 41  4c 49 41 53 3d 70 63 69  |2.0.MODALIAS=pci|
+00000070  3a 76 30 30 30 30 38 30  38 36 64 30 30 30 30 31  |:v00008086d00001|
+00000080  46 31 31 73 76 30 30 30  30 38 30 38 36 73 64 30  |F11sv00008086sd0|
+00000090  30 30 30 38 30 38 36 62  63 30 36 73 63 30 34 69  |0008086bc06sc04i|
+000000a0  30 30 0a                                          |00.|
+000000a3
+EOF
+/sys/devices/pci0000:00/0000:00:02.0/0000:00:02.0:pcie001/uevent
+00000000  44 52 49 56 45 52 3d 70  63 69 65 5f 70 6d 65 0a  |DRIVER=pcie_pme.|
+00000010
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/ata_port/ata1/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/host0/scsi_host/host0/state
+00000000  72 75 6e 6e 69 6e 67 0a                           |running.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/host0/scsi_host/host0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/host0/uevent
+00000000  44 45 56 54 59 50 45 3d  73 63 73 69 5f 68 6f 73  |DEVTYPE=scsi_hos|
+00000010  74 0a                                             |t.|
+00000012
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/link1/dev1.0/ata_device/dev1.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/link1/dev1.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/link1/ata_link/link1/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/link1/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata1/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/ata_port/ata4/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/host3/scsi_host/host3/state
+00000000  72 75 6e 6e 69 6e 67 0a                           |running.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/host3/scsi_host/host3/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/host3/uevent
+00000000  44 45 56 54 59 50 45 3d  73 63 73 69 5f 68 6f 73  |DEVTYPE=scsi_hos|
+00000010  74 0a                                             |t.|
+00000012
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/link4/dev4.0/ata_device/dev4.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/link4/dev4.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/link4/ata_link/link4/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/link4/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata4/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/ata_port/ata2/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/host1/scsi_host/host1/state
+00000000  72 75 6e 6e 69 6e 67 0a                           |running.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/host1/scsi_host/host1/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/host1/uevent
+00000000  44 45 56 54 59 50 45 3d  73 63 73 69 5f 68 6f 73  |DEVTYPE=scsi_hos|
+00000010  74 0a                                             |t.|
+00000012
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/link2/dev2.0/ata_device/dev2.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/link2/dev2.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/link2/ata_link/link2/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/link2/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata2/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/uevent
+00000000  44 52 49 56 45 52 3d 61  68 63 69 0a 50 43 49 5f  |DRIVER=ahci.PCI_|
+00000010  43 4c 41 53 53 3d 31 30  36 30 31 0a 50 43 49 5f  |CLASS=10601.PCI_|
+00000020  49 44 3d 38 30 38 36 3a  31 46 32 32 0a 50 43 49  |ID=8086:1F22.PCI|
+00000030  5f 53 55 42 53 59 53 5f  49 44 3d 38 30 38 36 3a  |_SUBSYS_ID=8086:|
+00000040  31 46 32 32 0a 50 43 49  5f 53 4c 4f 54 5f 4e 41  |1F22.PCI_SLOT_NA|
+00000050  4d 45 3d 30 30 30 30 3a  30 30 3a 31 37 2e 30 0a  |ME=0000:00:17.0.|
+00000060  4d 4f 44 41 4c 49 41 53  3d 70 63 69 3a 76 30 30  |MODALIAS=pci:v00|
+00000070  30 30 38 30 38 36 64 30  30 30 30 31 46 32 32 73  |008086d00001F22s|
+00000080  76 30 30 30 30 38 30 38  36 73 64 30 30 30 30 31  |v00008086sd00001|
+00000090  46 32 32 62 63 30 31 73  63 30 36 69 30 31 0a     |F22bc01sc06i01.|
+0000009f
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/link3/ata_link/link3/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/link3/dev3.0/ata_device/dev3.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/link3/dev3.0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/link3/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/ata_port/ata3/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/host2/scsi_host/host2/state
+00000000  72 75 6e 6e 69 6e 67 0a                           |running.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/host2/scsi_host/host2/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:17.0/ata3/host2/uevent
+00000000  44 45 56 54 59 50 45 3d  73 63 73 69 5f 68 6f 73  |DEVTYPE=scsi_hos|
+00000010  74 0a                                             |t.|
+00000012
+EOF
+/sys/devices/pci0000:00/0000:00:1f.0/PNP0C04:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 34 3a 0a                              |P0C04:.|
+00000017
+EOF
+/sys/devices/pci0000:00/0000:00:1f.0/INT0800:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 49 4e  |MODALIAS=acpi:IN|
+00000010  54 30 38 30 30 3a 0a                              |T0800:.|
+00000017
+EOF
+/sys/devices/pci0000:00/0000:00:1f.0/uevent
+00000000  44 52 49 56 45 52 3d 6c  70 63 5f 69 63 68 0a 50  |DRIVER=lpc_ich.P|
+00000010  43 49 5f 43 4c 41 53 53  3d 36 30 31 30 30 0a 50  |CI_CLASS=60100.P|
+00000020  43 49 5f 49 44 3d 38 30  38 36 3a 31 46 33 38 0a  |CI_ID=8086:1F38.|
+00000030  50 43 49 5f 53 55 42 53  59 53 5f 49 44 3d 38 30  |PCI_SUBSYS_ID=80|
+00000040  38 36 3a 31 46 33 38 0a  50 43 49 5f 53 4c 4f 54  |86:1F38.PCI_SLOT|
+00000050  5f 4e 41 4d 45 3d 30 30  30 30 3a 30 30 3a 31 66  |_NAME=0000:00:1f|
+00000060  2e 30 0a 4d 4f 44 41 4c  49 41 53 3d 70 63 69 3a  |.0.MODALIAS=pci:|
+00000070  76 30 30 30 30 38 30 38  36 64 30 30 30 30 31 46  |v00008086d00001F|
+00000080  33 38 73 76 30 30 30 30  38 30 38 36 73 64 30 30  |38sv00008086sd00|
+00000090  30 30 31 46 33 38 62 63  30 36 73 63 30 31 69 30  |001F38bc06sc01i0|
+000000a0  30 0a                                             |0.|
+000000a2
+EOF
+/sys/devices/pci0000:00/0000:00:1f.0/iTCO_wdt.0.auto/misc/watchdog/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 31  |MAJOR=10.MINOR=1|
+00000010  33 30 0a 44 45 56 4e 41  4d 45 3d 77 61 74 63 68  |30.DEVNAME=watch|
+00000020  64 6f 67 0a                                       |dog.|
+00000024
+EOF
+/sys/devices/pci0000:00/0000:00:1f.0/iTCO_wdt.0.auto/watchdog/watchdog0/state
+00000000  69 6e 61 63 74 69 76 65  0a                       |inactive.|
+00000009
+EOF
+/sys/devices/pci0000:00/0000:00:1f.0/iTCO_wdt.0.auto/watchdog/watchdog0/uevent
+00000000  4d 41 4a 4f 52 3d 32 35  31 0a 4d 49 4e 4f 52 3d  |MAJOR=251.MINOR=|
+00000010  30 0a 44 45 56 4e 41 4d  45 3d 77 61 74 63 68 64  |0.DEVNAME=watchd|
+00000020  6f 67 30 0a                                       |og0.|
+00000024
+EOF
+/sys/devices/pci0000:00/0000:00:1f.0/iTCO_wdt.0.auto/uevent
+00000000  44 45 56 54 59 50 45 3d  6d 66 64 5f 64 65 76 69  |DEVTYPE=mfd_devi|
+00000010  63 65 0a 44 52 49 56 45  52 3d 69 54 43 4f 5f 77  |ce.DRIVER=iTCO_w|
+00000020  64 74 0a 4d 4f 44 41 4c  49 41 53 3d 70 6c 61 74  |dt.MODALIAS=plat|
+00000030  66 6f 72 6d 3a 69 54 43  4f 5f 77 64 74 0a        |form:iTCO_wdt.|
+0000003e
+EOF
+/sys/devices/pci0000:00/0000:00:01.0/0000:00:01.0:pcie002/uevent
+00000000  44 52 49 56 45 52 3d 61  65 72 0a                 |DRIVER=aer.|
+0000000b
+EOF
+/sys/devices/pci0000:00/0000:00:01.0/pci_bus/0000:01/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:01.0/0000:00:01.0:pcie001/uevent
+00000000  44 52 49 56 45 52 3d 70  63 69 65 5f 70 6d 65 0a  |DRIVER=pcie_pme.|
+00000010
+EOF
+/sys/devices/pci0000:00/0000:00:01.0/uevent
+00000000  44 52 49 56 45 52 3d 70  63 69 65 70 6f 72 74 0a  |DRIVER=pcieport.|
+00000010  50 43 49 5f 43 4c 41 53  53 3d 36 30 34 30 30 0a  |PCI_CLASS=60400.|
+00000020  50 43 49 5f 49 44 3d 38  30 38 36 3a 31 46 31 30  |PCI_ID=8086:1F10|
+00000030  0a 50 43 49 5f 53 55 42  53 59 53 5f 49 44 3d 38  |.PCI_SUBSYS_ID=8|
+00000040  30 38 36 3a 38 30 38 36  0a 50 43 49 5f 53 4c 4f  |086:8086.PCI_SLO|
+00000050  54 5f 4e 41 4d 45 3d 30  30 30 30 3a 30 30 3a 30  |T_NAME=0000:00:0|
+00000060  31 2e 30 0a 4d 4f 44 41  4c 49 41 53 3d 70 63 69  |1.0.MODALIAS=pci|
+00000070  3a 76 30 30 30 30 38 30  38 36 64 30 30 30 30 31  |:v00008086d00001|
+00000080  46 31 30 73 76 30 30 30  30 38 30 38 36 73 64 30  |F10sv00008086sd0|
+00000090  30 30 30 38 30 38 36 62  63 30 36 73 63 30 34 69  |0008086bc06sc04i|
+000000a0  30 30 0a                                          |00.|
+000000a3
+EOF
+/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/net/enp1s0/address
+00000000  30 30 3a 30 38 3a 61 32  3a 30 62 3a 34 32 3a 63  |00:08:a2:0b:42:c|
+00000010  30 0a                                             |0.|
+00000012
+EOF
+/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/net/enp1s0/uevent
+00000000  49 4e 54 45 52 46 41 43  45 3d 65 6e 70 31 73 30  |INTERFACE=enp1s0|
+00000010  0a 49 46 49 4e 44 45 58  3d 32 0a                 |.IFINDEX=2.|
+0000001b
+EOF
+/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/ptp/ptp0/uevent
+00000000  4d 41 4a 4f 52 3d 32 34  38 0a 4d 49 4e 4f 52 3d  |MAJOR=248.MINOR=|
+00000010  30 0a 44 45 56 4e 41 4d  45 3d 70 74 70 30 0a     |0.DEVNAME=ptp0.|
+0000001f
+EOF
+/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/uevent
+00000000  44 52 49 56 45 52 3d 69  67 62 0a 50 43 49 5f 43  |DRIVER=igb.PCI_C|
+00000010  4c 41 53 53 3d 32 30 30  30 30 0a 50 43 49 5f 49  |LASS=20000.PCI_I|
+00000020  44 3d 38 30 38 36 3a 31  35 33 33 0a 50 43 49 5f  |D=8086:1533.PCI_|
+00000030  53 55 42 53 59 53 5f 49  44 3d 46 46 46 46 3a 30  |SUBSYS_ID=FFFF:0|
+00000040  30 30 30 0a 50 43 49 5f  53 4c 4f 54 5f 4e 41 4d  |000.PCI_SLOT_NAM|
+00000050  45 3d 30 30 30 30 3a 30  31 3a 30 30 2e 30 0a 4d  |E=0000:01:00.0.M|
+00000060  4f 44 41 4c 49 41 53 3d  70 63 69 3a 76 30 30 30  |ODALIAS=pci:v000|
+00000070  30 38 30 38 36 64 30 30  30 30 31 35 33 33 73 76  |08086d00001533sv|
+00000080  30 30 30 30 46 46 46 46  73 64 30 30 30 30 30 30  |0000FFFFsd000000|
+00000090  30 30 62 63 30 32 73 63  30 30 69 30 30 0a        |00bc02sc00i00.|
+0000009e
+EOF
+/sys/devices/pci0000:00/0000:00:13.0/i2c-0/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:13.0/i2c-0/name
+00000000  53 4d 42 75 73 20 69 53  4d 54 20 61 64 61 70 74  |SMBus iSMT adapt|
+00000010  65 72 20 61 74 20 64 66  66 38 31 30 30 30 0a     |er at dff81000.|
+0000001f
+EOF
+/sys/devices/pci0000:00/0000:00:13.0/uevent
+00000000  44 52 49 56 45 52 3d 69  73 6d 74 5f 73 6d 62 75  |DRIVER=ismt_smbu|
+00000010  73 0a 50 43 49 5f 43 4c  41 53 53 3d 38 38 30 30  |s.PCI_CLASS=8800|
+00000020  30 0a 50 43 49 5f 49 44  3d 38 30 38 36 3a 31 46  |0.PCI_ID=8086:1F|
+00000030  31 35 0a 50 43 49 5f 53  55 42 53 59 53 5f 49 44  |15.PCI_SUBSYS_ID|
+00000040  3d 30 30 30 30 3a 30 30  30 30 0a 50 43 49 5f 53  |=0000:0000.PCI_S|
+00000050  4c 4f 54 5f 4e 41 4d 45  3d 30 30 30 30 3a 30 30  |LOT_NAME=0000:00|
+00000060  3a 31 33 2e 30 0a 4d 4f  44 41 4c 49 41 53 3d 70  |:13.0.MODALIAS=p|
+00000070  63 69 3a 76 30 30 30 30  38 30 38 36 64 30 30 30  |ci:v00008086d000|
+00000080  30 31 46 31 35 73 76 30  30 30 30 30 30 30 30 73  |01F15sv00000000s|
+00000090  64 30 30 30 30 30 30 30  30 62 63 30 38 73 63 38  |d00000000bc08sc8|
+000000a0  30 69 30 30 0a                                    |0i00.|
+000000a5
+EOF
+/sys/devices/pci0000:00/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:04.0/0000:00:04.0:pcie002/uevent
+00000000  44 52 49 56 45 52 3d 61  65 72 0a                 |DRIVER=aer.|
+0000000b
+EOF
+/sys/devices/pci0000:00/0000:00:04.0/pci_bus/0000:04/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:04.0/0000:00:04.0:pcie001/uevent
+00000000  44 52 49 56 45 52 3d 70  63 69 65 5f 70 6d 65 0a  |DRIVER=pcie_pme.|
+00000010
+EOF
+/sys/devices/pci0000:00/0000:00:04.0/uevent
+00000000  44 52 49 56 45 52 3d 70  63 69 65 70 6f 72 74 0a  |DRIVER=pcieport.|
+00000010  50 43 49 5f 43 4c 41 53  53 3d 36 30 34 30 30 0a  |PCI_CLASS=60400.|
+00000020  50 43 49 5f 49 44 3d 38  30 38 36 3a 31 46 31 33  |PCI_ID=8086:1F13|
+00000030  0a 50 43 49 5f 53 55 42  53 59 53 5f 49 44 3d 38  |.PCI_SUBSYS_ID=8|
+00000040  30 38 36 3a 38 30 38 36  0a 50 43 49 5f 53 4c 4f  |086:8086.PCI_SLO|
+00000050  54 5f 4e 41 4d 45 3d 30  30 30 30 3a 30 30 3a 30  |T_NAME=0000:00:0|
+00000060  34 2e 30 0a 4d 4f 44 41  4c 49 41 53 3d 70 63 69  |4.0.MODALIAS=pci|
+00000070  3a 76 30 30 30 30 38 30  38 36 64 30 30 30 30 31  |:v00008086d00001|
+00000080  46 31 33 73 76 30 30 30  30 38 30 38 36 73 64 30  |F13sv00008086sd0|
+00000090  30 30 30 38 30 38 36 62  63 30 36 73 63 30 34 69  |0008086bc06sc04i|
+000000a0  30 30 0a                                          |00.|
+000000a3
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/devnum
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/ep_00/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/devnum
+00000000  32 0a                                             |2.|
+00000002
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/ep_00/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/removable
+00000000  75 6e 6b 6e 6f 77 6e 0a                           |unknown.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/busnum
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/1-1:1.0/1-1-port4/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/1-1:1.0/1-1-port2/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/1-1:1.0/ep_81/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/1-1:1.0/1-1-port3/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/1-1:1.0/1-1-port1/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/1-1:1.0/uevent
+00000000  44 45 56 54 59 50 45 3d  75 73 62 5f 69 6e 74 65  |DEVTYPE=usb_inte|
+00000010  72 66 61 63 65 0a 44 52  49 56 45 52 3d 68 75 62  |rface.DRIVER=hub|
+00000020  0a 50 52 4f 44 55 43 54  3d 38 30 38 37 2f 37 64  |.PRODUCT=8087/7d|
+00000030  62 2f 32 0a 54 59 50 45  3d 39 2f 30 2f 31 0a 49  |b/2.TYPE=9/0/1.I|
+00000040  4e 54 45 52 46 41 43 45  3d 39 2f 30 2f 30 0a 4d  |NTERFACE=9/0/0.M|
+00000050  4f 44 41 4c 49 41 53 3d  75 73 62 3a 76 38 30 38  |ODALIAS=usb:v808|
+00000060  37 70 30 37 44 42 64 30  30 30 32 64 63 30 39 64  |7p07DBd0002dc09d|
+00000070  73 63 30 30 64 70 30 31  69 63 30 39 69 73 63 30  |sc00dp01ic09isc0|
+00000080  30 69 70 30 30 69 6e 30  30 0a                    |0ip00in00.|
+0000008a
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-1/uevent
+00000000  4d 41 4a 4f 52 3d 31 38  39 0a 4d 49 4e 4f 52 3d  |MAJOR=189.MINOR=|
+00000010  31 0a 44 45 56 4e 41 4d  45 3d 62 75 73 2f 75 73  |1.DEVNAME=bus/us|
+00000020  62 2f 30 30 31 2f 30 30  32 0a 44 45 56 54 59 50  |b/001/002.DEVTYP|
+00000030  45 3d 75 73 62 5f 64 65  76 69 63 65 0a 44 52 49  |E=usb_device.DRI|
+00000040  56 45 52 3d 75 73 62 0a  50 52 4f 44 55 43 54 3d  |VER=usb.PRODUCT=|
+00000050  38 30 38 37 2f 37 64 62  2f 32 0a 54 59 50 45 3d  |8087/7db/2.TYPE=|
+00000060  39 2f 30 2f 31 0a 42 55  53 4e 55 4d 3d 30 30 31  |9/0/1.BUSNUM=001|
+00000070  0a 44 45 56 4e 55 4d 3d  30 30 32 0a              |.DEVNUM=002.|
+0000007c
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/usb1-port1/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/usb1-port8/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/usb1-port6/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/usb1-port4/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/ep_81/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/usb1-port2/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/usb1-port7/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/uevent
+00000000  44 45 56 54 59 50 45 3d  75 73 62 5f 69 6e 74 65  |DEVTYPE=usb_inte|
+00000010  72 66 61 63 65 0a 44 52  49 56 45 52 3d 68 75 62  |rface.DRIVER=hub|
+00000020  0a 50 52 4f 44 55 43 54  3d 31 64 36 62 2f 32 2f  |.PRODUCT=1d6b/2/|
+00000030  34 30 39 0a 54 59 50 45  3d 39 2f 30 2f 30 0a 49  |409.TYPE=9/0/0.I|
+00000040  4e 54 45 52 46 41 43 45  3d 39 2f 30 2f 30 0a 4d  |NTERFACE=9/0/0.M|
+00000050  4f 44 41 4c 49 41 53 3d  75 73 62 3a 76 31 44 36  |ODALIAS=usb:v1D6|
+00000060  42 70 30 30 30 32 64 30  34 30 39 64 63 30 39 64  |Bp0002d0409dc09d|
+00000070  73 63 30 30 64 70 30 30  69 63 30 39 69 73 63 30  |sc00dp00ic09isc0|
+00000080  30 69 70 30 30 69 6e 30  30 0a                    |0ip00in00.|
+0000008a
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/usb1-port5/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/1-0:1.0/usb1-port3/uevent
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/removable
+00000000  75 6e 6b 6e 6f 77 6e 0a                           |unknown.|
+00000008
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/busnum
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/usb1/uevent
+00000000  4d 41 4a 4f 52 3d 31 38  39 0a 4d 49 4e 4f 52 3d  |MAJOR=189.MINOR=|
+00000010  30 0a 44 45 56 4e 41 4d  45 3d 62 75 73 2f 75 73  |0.DEVNAME=bus/us|
+00000020  62 2f 30 30 31 2f 30 30  31 0a 44 45 56 54 59 50  |b/001/001.DEVTYP|
+00000030  45 3d 75 73 62 5f 64 65  76 69 63 65 0a 44 52 49  |E=usb_device.DRI|
+00000040  56 45 52 3d 75 73 62 0a  50 52 4f 44 55 43 54 3d  |VER=usb.PRODUCT=|
+00000050  31 64 36 62 2f 32 2f 34  30 39 0a 54 59 50 45 3d  |1d6b/2/409.TYPE=|
+00000060  39 2f 30 2f 30 0a 42 55  53 4e 55 4d 3d 30 30 31  |9/0/0.BUSNUM=001|
+00000070  0a 44 45 56 4e 55 4d 3d  30 30 31 0a              |.DEVNUM=001.|
+0000007c
+EOF
+/sys/devices/pci0000:00/0000:00:16.0/uevent
+00000000  44 52 49 56 45 52 3d 65  68 63 69 2d 70 63 69 0a  |DRIVER=ehci-pci.|
+00000010  50 43 49 5f 43 4c 41 53  53 3d 43 30 33 32 30 0a  |PCI_CLASS=C0320.|
+00000020  50 43 49 5f 49 44 3d 38  30 38 36 3a 31 46 32 43  |PCI_ID=8086:1F2C|
+00000030  0a 50 43 49 5f 53 55 42  53 59 53 5f 49 44 3d 30  |.PCI_SUBSYS_ID=0|
+00000040  41 34 35 3a 31 30 34 31  0a 50 43 49 5f 53 4c 4f  |A45:1041.PCI_SLO|
+00000050  54 5f 4e 41 4d 45 3d 30  30 30 30 3a 30 30 3a 31  |T_NAME=0000:00:1|
+00000060  36 2e 30 0a 4d 4f 44 41  4c 49 41 53 3d 70 63 69  |6.0.MODALIAS=pci|
+00000070  3a 76 30 30 30 30 38 30  38 36 64 30 30 30 30 31  |:v00008086d00001|
+00000080  46 32 43 73 76 30 30 30  30 30 41 34 35 73 64 30  |F2Csv00000A45sd0|
+00000090  30 30 30 31 30 34 31 62  63 30 43 73 63 30 33 69  |0001041bc0Csc03i|
+000000a0  32 30 0a                                          |20.|
+000000a3
+EOF
+/sys/devices/platform/platform-framebuffer.0/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 70 6c 61 74 66 6f 72  |MODALIAS=platfor|
+00000010  6d 3a 70 6c 61 74 66 6f  72 6d 2d 66 72 61 6d 65  |m:platform-frame|
+00000020  62 75 66 66 65 72 0a                              |buffer.|
+00000027
+EOF
+/sys/devices/platform/microcode/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 70 6c 61 74 66 6f 72  |MODALIAS=platfor|
+00000010  6d 3a 6d 69 63 72 6f 63  6f 64 65 0a              |m:microcode.|
+0000001c
+EOF
+/sys/devices/platform/alarmtimer/uevent
+00000000  44 52 49 56 45 52 3d 61  6c 61 72 6d 74 69 6d 65  |DRIVER=alarmtime|
+00000010  72 0a 4d 4f 44 41 4c 49  41 53 3d 70 6c 61 74 66  |r.MODALIAS=platf|
+00000020  6f 72 6d 3a 61 6c 61 72  6d 74 69 6d 65 72 0a     |orm:alarmtimer.|
+0000002f
+EOF
+/sys/devices/platform/coretemp.0/hwmon/hwmon0/uevent
+EOF
+/sys/devices/platform/coretemp.0/hwmon/hwmon0/name
+00000000  63 6f 72 65 74 65 6d 70  0a                       |coretemp.|
+00000009
+EOF
+/sys/devices/platform/coretemp.0/uevent
+00000000  44 52 49 56 45 52 3d 63  6f 72 65 74 65 6d 70 0a  |DRIVER=coretemp.|
+00000010  4d 4f 44 41 4c 49 41 53  3d 70 6c 61 74 66 6f 72  |MODALIAS=platfor|
+00000020  6d 3a 63 6f 72 65 74 65  6d 70 0a                 |m:coretemp.|
+0000002b
+EOF
+/sys/devices/platform/pcspkr/uevent
+00000000  44 52 49 56 45 52 3d 70  63 73 70 6b 72 0a 4d 4f  |DRIVER=pcspkr.MO|
+00000010  44 41 4c 49 41 53 3d 70  6c 61 74 66 6f 72 6d 3a  |DALIAS=platform:|
+00000020  70 63 73 70 6b 72 0a                              |pcspkr.|
+00000027
+EOF
+/sys/devices/platform/pcspkr/input/input1/event1/uevent
+00000000  4d 41 4a 4f 52 3d 31 33  0a 4d 49 4e 4f 52 3d 36  |MAJOR=13.MINOR=6|
+00000010  35 0a 44 45 56 4e 41 4d  45 3d 69 6e 70 75 74 2f  |5.DEVNAME=input/|
+00000020  65 76 65 6e 74 31 0a                              |event1.|
+00000027
+EOF
+/sys/devices/platform/pcspkr/input/input1/uevent
+00000000  50 52 4f 44 55 43 54 3d  31 30 2f 31 66 2f 31 2f  |PRODUCT=10/1f/1/|
+00000010  31 30 30 0a 4e 41 4d 45  3d 22 50 43 20 53 70 65  |100.NAME="PC Spe|
+00000020  61 6b 65 72 22 0a 50 48  59 53 3d 22 69 73 61 30  |aker".PHYS="isa0|
+00000030  30 36 31 2f 69 6e 70 75  74 30 22 0a 50 52 4f 50  |061/input0".PROP|
+00000040  3d 30 0a 45 56 3d 34 30  30 30 31 0a 53 4e 44 3d  |=0.EV=40001.SND=|
+00000050  36 0a 4d 4f 44 41 4c 49  41 53 3d 69 6e 70 75 74  |6.MODALIAS=input|
+00000060  3a 62 30 30 31 30 76 30  30 31 46 70 30 30 30 31  |:b0010v001Fp0001|
+00000070  65 30 31 30 30 2d 65 30  2c 31 32 2c 6b 72 61 6d  |e0100-e0,12,kram|
+00000080  6c 73 31 2c 32 2c 66 77  0a                       |ls1,2,fw.|
+00000089
+EOF
+/sys/devices/platform/pcspkr/input/input1/name
+00000000  50 43 20 53 70 65 61 6b  65 72 0a                 |PC Speaker.|
+0000000b
+EOF
+/sys/devices/platform/uevent
+EOF
+/sys/devices/platform/serial8250/tty/ttyS2/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 36  |MAJOR=4.MINOR=66|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 53 32 0a     |.DEVNAME=ttyS2.|
+0000001f
+EOF
+/sys/devices/platform/serial8250/tty/ttyS0/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 34  |MAJOR=4.MINOR=64|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 53 30 0a     |.DEVNAME=ttyS0.|
+0000001f
+EOF
+/sys/devices/platform/serial8250/tty/ttyS3/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 37  |MAJOR=4.MINOR=67|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 53 33 0a     |.DEVNAME=ttyS3.|
+0000001f
+EOF
+/sys/devices/platform/serial8250/tty/ttyS1/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 35  |MAJOR=4.MINOR=65|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 53 31 0a     |.DEVNAME=ttyS1.|
+0000001f
+EOF
+/sys/devices/platform/serial8250/uevent
+00000000  44 52 49 56 45 52 3d 73  65 72 69 61 6c 38 32 35  |DRIVER=serial825|
+00000010  30 0a 4d 4f 44 41 4c 49  41 53 3d 70 6c 61 74 66  |0.MODALIAS=platf|
+00000020  6f 72 6d 3a 73 65 72 69  61 6c 38 32 35 30 0a     |orm:serial8250.|
+0000002f
+EOF
+/sys/devices/cstate_pkg/uevent
+EOF
+/sys/devices/breakpoint/uevent
+EOF
+/sys/devices/pnp0/00:00/uevent
+00000000  44 52 49 56 45 52 3d 73  79 73 74 65 6d 0a        |DRIVER=system.|
+0000000e
+EOF
+/sys/devices/pnp0/00:03/uevent
+00000000  44 52 49 56 45 52 3d 72  74 63 5f 63 6d 6f 73 0a  |DRIVER=rtc_cmos.|
+00000010
+EOF
+/sys/devices/pnp0/00:03/rtc/rtc0/uevent
+00000000  4d 41 4a 4f 52 3d 32 35  32 0a 4d 49 4e 4f 52 3d  |MAJOR=252.MINOR=|
+00000010  30 0a 44 45 56 4e 41 4d  45 3d 72 74 63 30 0a     |0.DEVNAME=rtc0.|
+0000001f
+EOF
+/sys/devices/pnp0/00:03/rtc/rtc0/name
+00000000  72 74 63 5f 63 6d 6f 73  0a                       |rtc_cmos.|
+00000009
+EOF
+/sys/devices/pnp0/00:01/uevent
+00000000  44 52 49 56 45 52 3d 73  79 73 74 65 6d 0a        |DRIVER=system.|
+0000000e
+EOF
+/sys/devices/pnp0/uevent
+EOF
+/sys/devices/pnp0/00:02/uevent
+00000000  44 52 49 56 45 52 3d 73  79 73 74 65 6d 0a        |DRIVER=system.|
+0000000e
+EOF
+/sys/devices/system/clockevents/clockevent0/uevent
+EOF
+/sys/devices/system/clockevents/broadcast/uevent
+EOF
+/sys/devices/system/clockevents/clockevent1/uevent
+EOF
+/sys/devices/system/clockevents/uevent
+EOF
+/sys/devices/system/machinecheck/machinecheck1/uevent
+EOF
+/sys/devices/system/machinecheck/machinecheck0/uevent
+EOF
+/sys/devices/system/machinecheck/uevent
+EOF
+/sys/devices/system/cpu/cpu1/cpuidle/state1/name
+00000000  43 31 2d 41 56 4e 0a                              |C1-AVN.|
+00000007
+EOF
+/sys/devices/system/cpu/cpu1/cpuidle/state2/name
+00000000  43 36 2d 41 56 4e 0a                              |C6-AVN.|
+00000007
+EOF
+/sys/devices/system/cpu/cpu1/cpuidle/state0/name
+00000000  50 4f 4c 4c 0a                                    |POLL.|
+00000005
+EOF
+/sys/devices/system/cpu/cpu1/hotplug/state
+00000000  31 35 30 0a                                       |150.|
+00000004
+EOF
+/sys/devices/system/cpu/cpu1/cache/index0/uevent
+EOF
+/sys/devices/system/cpu/cpu1/cache/index1/uevent
+EOF
+/sys/devices/system/cpu/cpu1/cache/uevent
+EOF
+/sys/devices/system/cpu/cpu1/cache/index2/uevent
+EOF
+/sys/devices/system/cpu/cpu1/uevent
+00000000  44 52 49 56 45 52 3d 70  72 6f 63 65 73 73 6f 72  |DRIVER=processor|
+00000010  0a 4d 4f 44 41 4c 49 41  53 3d 63 70 75 3a 74 79  |.MODALIAS=cpu:ty|
+00000020  70 65 3a 78 38 36 2c 76  65 6e 30 30 30 30 66 61  |pe:x86,ven0000fa|
+00000030  6d 30 30 30 36 6d 6f 64  30 30 34 44 3a 66 65 61  |m0006mod004D:fea|
+00000040  74 75 72 65 3a 2c 30 30  30 30 2c 30 30 30 31 2c  |ture:,0000,0001,|
+00000050  30 30 30 32 2c 30 30 30  33 2c 30 30 30 34 2c 30  |0002,0003,0004,0|
+00000060  30 30 35 2c 30 30 30 36  2c 30 30 30 37 2c 30 30  |005,0006,0007,00|
+00000070  30 38 2c 30 30 30 39 2c  30 30 30 42 2c 30 30 30  |08,0009,000B,000|
+00000080  43 2c 30 30 30 44 2c 30  30 30 45 2c 30 30 30 46  |C,000D,000E,000F|
+00000090  2c 30 30 31 30 2c 30 30  31 31 2c 30 30 31 33 2c  |,0010,0011,0013,|
+000000a0  30 30 31 35 2c 30 30 31  36 2c 30 30 31 37 2c 30  |0015,0016,0017,0|
+000000b0  30 31 38 2c 30 30 31 39  2c 30 30 31 41 2c 30 30  |018,0019,001A,00|
+000000c0  31 42 2c 30 30 31 43 2c  30 30 31 44 2c 30 30 31  |1B,001C,001D,001|
+000000d0  46 2c 30 30 32 42 2c 30  30 33 34 2c 30 30 33 42  |F,002B,0034,003B|
+000000e0  2c 30 30 33 44 2c 30 30  36 38 2c 30 30 36 42 2c  |,003D,0068,006B,|
+000000f0  30 30 36 43 2c 30 30 36  44 2c 30 30 36 46 2c 30  |006C,006D,006F,0|
+00000100  30 37 30 2c 30 30 37 32  2c 30 30 37 34 2c 30 30  |070,0072,0074,00|
+00000110  37 35 2c 30 30 37 36 2c  30 30 37 38 2c 30 30 37  |75,0076,0078,007|
+00000120  43 2c 30 30 37 44 2c 30  30 38 30 2c 30 30 38 31  |C,007D,0080,0081|
+00000130  2c 30 30 38 32 2c 30 30  38 33 2c 30 30 38 34 2c  |,0082,0083,0084,|
+00000140  30 30 38 35 2c 30 30 38  37 2c 30 30 38 38 2c 30  |0085,0087,0088,0|
+00000150  30 38 39 2c 30 30 38 44  2c 30 30 38 45 2c 30 30  |089,008D,008E,00|
+00000160  38 46 2c 30 30 39 33 2c  30 30 39 34 2c 30 30 39  |8F,0093,0094,009|
+00000170  36 2c 30 30 39 37 2c 30  30 39 38 2c 30 30 39 39  |6,0097,0098,0099|
+00000180  2c 30 30 39 45 2c 30 30  43 30 2c 30 30 43 38 2c  |,009E,00C0,00C8,|
+00000190  30 30 45 33 2c 30 31 30  30 2c 30 31 30 31 2c 30  |00E3,0100,0101,0|
+000001a0  31 30 32 2c 30 31 30 33  2c 30 31 30 34 2c 30 31  |102,0103,0104,01|
+000001b0  32 31 2c 30 31 32 37 2c  30 31 32 39 2c 30 31 32  |21,0127,0129,012|
+000001c0  44 2c 30 31 43 30 2c 30  31 43 32 0a 0a           |D,01C0,01C2..|
+000001cd
+EOF
+/sys/devices/system/cpu/uevent
+EOF
+/sys/devices/system/cpu/cpu0/cpuidle/state1/name
+00000000  43 31 2d 41 56 4e 0a                              |C1-AVN.|
+00000007
+EOF
+/sys/devices/system/cpu/cpu0/cpuidle/state2/name
+00000000  43 36 2d 41 56 4e 0a                              |C6-AVN.|
+00000007
+EOF
+/sys/devices/system/cpu/cpu0/cpuidle/state0/name
+00000000  50 4f 4c 4c 0a                                    |POLL.|
+00000005
+EOF
+/sys/devices/system/cpu/cpu0/hotplug/state
+00000000  31 35 30 0a                                       |150.|
+00000004
+EOF
+/sys/devices/system/cpu/cpu0/cache/index0/uevent
+EOF
+/sys/devices/system/cpu/cpu0/cache/index1/uevent
+EOF
+/sys/devices/system/cpu/cpu0/cache/uevent
+EOF
+/sys/devices/system/cpu/cpu0/cache/index2/uevent
+EOF
+/sys/devices/system/cpu/cpu0/uevent
+00000000  44 52 49 56 45 52 3d 70  72 6f 63 65 73 73 6f 72  |DRIVER=processor|
+00000010  0a 4d 4f 44 41 4c 49 41  53 3d 63 70 75 3a 74 79  |.MODALIAS=cpu:ty|
+00000020  70 65 3a 78 38 36 2c 76  65 6e 30 30 30 30 66 61  |pe:x86,ven0000fa|
+00000030  6d 30 30 30 36 6d 6f 64  30 30 34 44 3a 66 65 61  |m0006mod004D:fea|
+00000040  74 75 72 65 3a 2c 30 30  30 30 2c 30 30 30 31 2c  |ture:,0000,0001,|
+00000050  30 30 30 32 2c 30 30 30  33 2c 30 30 30 34 2c 30  |0002,0003,0004,0|
+00000060  30 30 35 2c 30 30 30 36  2c 30 30 30 37 2c 30 30  |005,0006,0007,00|
+00000070  30 38 2c 30 30 30 39 2c  30 30 30 42 2c 30 30 30  |08,0009,000B,000|
+00000080  43 2c 30 30 30 44 2c 30  30 30 45 2c 30 30 30 46  |C,000D,000E,000F|
+00000090  2c 30 30 31 30 2c 30 30  31 31 2c 30 30 31 33 2c  |,0010,0011,0013,|
+000000a0  30 30 31 35 2c 30 30 31  36 2c 30 30 31 37 2c 30  |0015,0016,0017,0|
+000000b0  30 31 38 2c 30 30 31 39  2c 30 30 31 41 2c 30 30  |018,0019,001A,00|
+000000c0  31 42 2c 30 30 31 43 2c  30 30 31 44 2c 30 30 31  |1B,001C,001D,001|
+000000d0  46 2c 30 30 32 42 2c 30  30 33 34 2c 30 30 33 42  |F,002B,0034,003B|
+000000e0  2c 30 30 33 44 2c 30 30  36 38 2c 30 30 36 42 2c  |,003D,0068,006B,|
+000000f0  30 30 36 43 2c 30 30 36  44 2c 30 30 36 46 2c 30  |006C,006D,006F,0|
+00000100  30 37 30 2c 30 30 37 32  2c 30 30 37 34 2c 30 30  |070,0072,0074,00|
+00000110  37 35 2c 30 30 37 36 2c  30 30 37 38 2c 30 30 37  |75,0076,0078,007|
+00000120  43 2c 30 30 37 44 2c 30  30 38 30 2c 30 30 38 31  |C,007D,0080,0081|
+00000130  2c 30 30 38 32 2c 30 30  38 33 2c 30 30 38 34 2c  |,0082,0083,0084,|
+00000140  30 30 38 35 2c 30 30 38  37 2c 30 30 38 38 2c 30  |0085,0087,0088,0|
+00000150  30 38 39 2c 30 30 38 44  2c 30 30 38 45 2c 30 30  |089,008D,008E,00|
+00000160  38 46 2c 30 30 39 33 2c  30 30 39 34 2c 30 30 39  |8F,0093,0094,009|
+00000170  36 2c 30 30 39 37 2c 30  30 39 38 2c 30 30 39 39  |6,0097,0098,0099|
+00000180  2c 30 30 39 45 2c 30 30  43 30 2c 30 30 43 38 2c  |,009E,00C0,00C8,|
+00000190  30 30 45 33 2c 30 31 30  30 2c 30 31 30 31 2c 30  |00E3,0100,0101,0|
+000001a0  31 30 32 2c 30 31 30 33  2c 30 31 30 34 2c 30 31  |102,0103,0104,01|
+000001b0  32 31 2c 30 31 32 37 2c  30 31 32 39 2c 30 31 32  |21,0127,0129,012|
+000001c0  44 2c 30 31 43 30 2c 30  31 43 32 0a 0a           |D,01C0,01C2..|
+000001cd
+EOF
+/sys/devices/system/clocksource/clocksource0/uevent
+EOF
+/sys/devices/system/clocksource/uevent
+EOF
+/sys/devices/system/memory/memory6/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory6/removable
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory6/phys_index
+00000000  30 30 30 30 30 30 30 36  0a                       |00000006.|
+00000009
+EOF
+/sys/devices/system/memory/memory6/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory6/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory6/uevent
+EOF
+/sys/devices/system/memory/memory12/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory12/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory12/phys_index
+00000000  30 30 30 30 30 30 30 63  0a                       |0000000c.|
+00000009
+EOF
+/sys/devices/system/memory/memory12/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory12/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory12/uevent
+EOF
+/sys/devices/system/memory/memory40/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory40/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory40/phys_index
+00000000  30 30 30 30 30 30 32 38  0a                       |00000028.|
+00000009
+EOF
+/sys/devices/system/memory/memory40/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory40/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory40/uevent
+EOF
+/sys/devices/system/memory/memory4/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory4/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory4/phys_index
+00000000  30 30 30 30 30 30 30 34  0a                       |00000004.|
+00000009
+EOF
+/sys/devices/system/memory/memory4/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory4/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory4/uevent
+EOF
+/sys/devices/system/memory/memory10/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory10/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory10/phys_index
+00000000  30 30 30 30 30 30 30 61  0a                       |0000000a.|
+00000009
+EOF
+/sys/devices/system/memory/memory10/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory10/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory10/uevent
+EOF
+/sys/devices/system/memory/memory39/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory39/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory39/phys_index
+00000000  30 30 30 30 30 30 32 37  0a                       |00000027.|
+00000009
+EOF
+/sys/devices/system/memory/memory39/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory39/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory39/uevent
+EOF
+/sys/devices/system/memory/memory2/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory2/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory2/phys_index
+00000000  30 30 30 30 30 30 30 32  0a                       |00000002.|
+00000009
+EOF
+/sys/devices/system/memory/memory2/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory2/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory2/uevent
+EOF
+/sys/devices/system/memory/memory47/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory47/removable
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory47/phys_index
+00000000  30 30 30 30 30 30 32 66  0a                       |0000002f.|
+00000009
+EOF
+/sys/devices/system/memory/memory47/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory47/valid_zones
+00000000  4e 6f 72 6d 61 6c 20 4d  6f 76 61 62 6c 65 0a     |Normal Movable.|
+0000000f
+EOF
+/sys/devices/system/memory/memory47/uevent
+EOF
+/sys/devices/system/memory/memory37/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory37/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory37/phys_index
+00000000  30 30 30 30 30 30 32 35  0a                       |00000025.|
+00000009
+EOF
+/sys/devices/system/memory/memory37/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory37/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory37/uevent
+EOF
+/sys/devices/system/memory/memory0/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory0/removable
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory0/phys_index
+00000000  30 30 30 30 30 30 30 30  0a                       |00000000.|
+00000009
+EOF
+/sys/devices/system/memory/memory0/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory0/valid_zones
+00000000  6e 6f 6e 65 0a                                    |none.|
+00000005
+EOF
+/sys/devices/system/memory/memory0/uevent
+EOF
+/sys/devices/system/memory/memory45/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory45/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory45/phys_index
+00000000  30 30 30 30 30 30 32 64  0a                       |0000002d.|
+00000009
+EOF
+/sys/devices/system/memory/memory45/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory45/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory45/uevent
+EOF
+/sys/devices/system/memory/memory35/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory35/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory35/phys_index
+00000000  30 30 30 30 30 30 32 33  0a                       |00000023.|
+00000009
+EOF
+/sys/devices/system/memory/memory35/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory35/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory35/uevent
+EOF
+/sys/devices/system/memory/memory9/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory9/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory9/phys_index
+00000000  30 30 30 30 30 30 30 39  0a                       |00000009.|
+00000009
+EOF
+/sys/devices/system/memory/memory9/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory9/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory9/uevent
+EOF
+/sys/devices/system/memory/memory15/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory15/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory15/phys_index
+00000000  30 30 30 30 30 30 30 66  0a                       |0000000f.|
+00000009
+EOF
+/sys/devices/system/memory/memory15/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory15/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory15/uevent
+EOF
+/sys/devices/system/memory/memory43/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory43/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory43/phys_index
+00000000  30 30 30 30 30 30 32 62  0a                       |0000002b.|
+00000009
+EOF
+/sys/devices/system/memory/memory43/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory43/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory43/uevent
+EOF
+/sys/devices/system/memory/memory33/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory33/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory33/phys_index
+00000000  30 30 30 30 30 30 32 31  0a                       |00000021.|
+00000009
+EOF
+/sys/devices/system/memory/memory33/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory33/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory33/uevent
+EOF
+/sys/devices/system/memory/block_size_bytes
+00000000  38 30 30 30 30 30 30 0a                           |8000000.|
+00000008
+EOF
+/sys/devices/system/memory/memory7/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory7/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory7/phys_index
+00000000  30 30 30 30 30 30 30 37  0a                       |00000007.|
+00000009
+EOF
+/sys/devices/system/memory/memory7/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory7/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory7/uevent
+EOF
+/sys/devices/system/memory/memory13/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory13/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory13/phys_index
+00000000  30 30 30 30 30 30 30 64  0a                       |0000000d.|
+00000009
+EOF
+/sys/devices/system/memory/memory13/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory13/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory13/uevent
+EOF
+/sys/devices/system/memory/memory41/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory41/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory41/phys_index
+00000000  30 30 30 30 30 30 32 39  0a                       |00000029.|
+00000009
+EOF
+/sys/devices/system/memory/memory41/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory41/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory41/uevent
+EOF
+/sys/devices/system/memory/memory5/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory5/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory5/phys_index
+00000000  30 30 30 30 30 30 30 35  0a                       |00000005.|
+00000009
+EOF
+/sys/devices/system/memory/memory5/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory5/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory5/uevent
+EOF
+/sys/devices/system/memory/memory11/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory11/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory11/phys_index
+00000000  30 30 30 30 30 30 30 62  0a                       |0000000b.|
+00000009
+EOF
+/sys/devices/system/memory/memory11/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory11/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory11/uevent
+EOF
+/sys/devices/system/memory/memory3/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory3/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory3/phys_index
+00000000  30 30 30 30 30 30 30 33  0a                       |00000003.|
+00000009
+EOF
+/sys/devices/system/memory/memory3/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory3/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory3/uevent
+EOF
+/sys/devices/system/memory/memory38/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory38/removable
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory38/phys_index
+00000000  30 30 30 30 30 30 32 36  0a                       |00000026.|
+00000009
+EOF
+/sys/devices/system/memory/memory38/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory38/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory38/uevent
+EOF
+/sys/devices/system/memory/memory1/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory1/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory1/phys_index
+00000000  30 30 30 30 30 30 30 31  0a                       |00000001.|
+00000009
+EOF
+/sys/devices/system/memory/memory1/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory1/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory1/uevent
+EOF
+/sys/devices/system/memory/memory46/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory46/removable
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory46/phys_index
+00000000  30 30 30 30 30 30 32 65  0a                       |0000002e.|
+00000009
+EOF
+/sys/devices/system/memory/memory46/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory46/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory46/uevent
+EOF
+/sys/devices/system/memory/memory36/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory36/removable
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory36/phys_index
+00000000  30 30 30 30 30 30 32 34  0a                       |00000024.|
+00000009
+EOF
+/sys/devices/system/memory/memory36/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory36/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory36/uevent
+EOF
+/sys/devices/system/memory/memory44/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory44/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory44/phys_index
+00000000  30 30 30 30 30 30 32 63  0a                       |0000002c.|
+00000009
+EOF
+/sys/devices/system/memory/memory44/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory44/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory44/uevent
+EOF
+/sys/devices/system/memory/uevent
+EOF
+/sys/devices/system/memory/memory34/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory34/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory34/phys_index
+00000000  30 30 30 30 30 30 32 32  0a                       |00000022.|
+00000009
+EOF
+/sys/devices/system/memory/memory34/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory34/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory34/uevent
+EOF
+/sys/devices/system/memory/memory8/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory8/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory8/phys_index
+00000000  30 30 30 30 30 30 30 38  0a                       |00000008.|
+00000009
+EOF
+/sys/devices/system/memory/memory8/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory8/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory8/uevent
+EOF
+/sys/devices/system/memory/memory14/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory14/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory14/phys_index
+00000000  30 30 30 30 30 30 30 65  0a                       |0000000e.|
+00000009
+EOF
+/sys/devices/system/memory/memory14/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory14/valid_zones
+00000000  44 4d 41 33 32 0a                                 |DMA32.|
+00000006
+EOF
+/sys/devices/system/memory/memory14/uevent
+EOF
+/sys/devices/system/memory/memory42/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory42/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory42/phys_index
+00000000  30 30 30 30 30 30 32 61  0a                       |0000002a.|
+00000009
+EOF
+/sys/devices/system/memory/memory42/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory42/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory42/uevent
+EOF
+/sys/devices/system/memory/memory32/phys_device
+00000000  30 0a                                             |0.|
+00000002
+EOF
+/sys/devices/system/memory/memory32/removable
+00000000  31 0a                                             |1.|
+00000002
+EOF
+/sys/devices/system/memory/memory32/phys_index
+00000000  30 30 30 30 30 30 32 30  0a                       |00000020.|
+00000009
+EOF
+/sys/devices/system/memory/memory32/state
+00000000  6f 6e 6c 69 6e 65 0a                              |online.|
+00000007
+EOF
+/sys/devices/system/memory/memory32/valid_zones
+00000000  4e 6f 72 6d 61 6c 0a                              |Normal.|
+00000007
+EOF
+/sys/devices/system/memory/memory32/uevent
+EOF
+/sys/devices/system/container/uevent
+EOF
+/sys/devices/system/node/node0/uevent
+EOF
+/sys/devices/system/node/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:01/path
+00000000  5c 5f 54 5a 5f 0a                                 |\_TZ_.|
+00000006
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:01/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 4c 4e  |MODALIAS=acpi:LN|
+00000010  58 53 59 42 55 53 3a 0a                           |XSYBUS:.|
+00000018
+EOF
+/sys/devices/LNXSYSTM:00/LNXPWRBN:00/uevent
+00000000  44 52 49 56 45 52 3d 62  75 74 74 6f 6e 0a 4d 4f  |DRIVER=button.MO|
+00000010  44 41 4c 49 41 53 3d 61  63 70 69 3a 4c 4e 58 50  |DALIAS=acpi:LNXP|
+00000020  57 52 42 4e 3a 0a                                 |WRBN:.|
+00000026
+EOF
+/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0/uevent
+00000000  4d 41 4a 4f 52 3d 31 33  0a 4d 49 4e 4f 52 3d 36  |MAJOR=13.MINOR=6|
+00000010  34 0a 44 45 56 4e 41 4d  45 3d 69 6e 70 75 74 2f  |4.DEVNAME=input/|
+00000020  65 76 65 6e 74 30 0a                              |event0.|
+00000027
+EOF
+/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/uevent
+00000000  50 52 4f 44 55 43 54 3d  31 39 2f 30 2f 31 2f 30  |PRODUCT=19/0/1/0|
+00000010  0a 4e 41 4d 45 3d 22 50  6f 77 65 72 20 42 75 74  |.NAME="Power But|
+00000020  74 6f 6e 22 0a 50 48 59  53 3d 22 4c 4e 58 50 57  |ton".PHYS="LNXPW|
+00000030  52 42 4e 2f 62 75 74 74  6f 6e 2f 69 6e 70 75 74  |RBN/button/input|
+00000040  30 22 0a 50 52 4f 50 3d  30 0a 45 56 3d 33 0a 4b  |0".PROP=0.EV=3.K|
+00000050  45 59 3d 31 30 30 30 30  30 30 30 30 30 30 30 30  |EY=1000000000000|
+00000060  30 20 30 0a 4d 4f 44 41  4c 49 41 53 3d 69 6e 70  |0 0.MODALIAS=inp|
+00000070  75 74 3a 62 30 30 31 39  76 30 30 30 30 70 30 30  |ut:b0019v0000p00|
+00000080  30 31 65 30 30 30 30 2d  65 30 2c 31 2c 6b 37 34  |01e0000-e0,1,k74|
+00000090  2c 72 61 6d 6c 73 66 77  0a                       |,ramlsfw.|
+00000099
+EOF
+/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/name
+00000000  50 6f 77 65 72 20 42 75  74 74 6f 6e 0a           |Power Button.|
+0000000d
+EOF
+/sys/devices/LNXSYSTM:00/LNXCPU:01/path
+00000000  5c 5f 50 52 5f 2e 43 50  55 31 0a                 |\_PR_.CPU1.|
+0000000b
+EOF
+/sys/devices/LNXSYSTM:00/LNXCPU:01/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 4c 4e  |MODALIAS=acpi:LN|
+00000010  58 43 50 55 3a 0a                                 |XCPU:.|
+00000016
+EOF
+/sys/devices/LNXSYSTM:00/path
+00000000  5c 0a                                             |\.|
+00000002
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0103:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  48 50 45 54 0a                                    |HPET.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0103:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 31 30 33 3a 50 4e  50 30 43 30 31 3a 0a     |P0103:PNP0C01:.|
+0000001f
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:05/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 4e 4b 46 0a                                    |LNKF.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:05/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 46 3a 0a                              |P0C0F:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0100:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  54 49 4d 52 0a                                    |TIMR.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0100:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 31 30 30 3a 0a                              |P0100:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:03/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 4e 4b 44 0a                                    |LNKD.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:03/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 46 3a 0a                              |P0C0F:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C04:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4d 41 54 48 0a                                    |MATH.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C04:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 34 3a 0a                              |P0C04:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0000:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  50 49 43 5f 0a                                    |PIC_.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0000:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 30 30 30 3a 0a                              |P0000:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:01/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 4e 4b 42 0a                                    |LNKB.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:01/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 46 3a 0a                              |P0C0F:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C02:01/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 44 52 43 0a                                    |LDRC.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C02:01/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 32 3a 0a                              |P0C02:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/INT0800:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  46 57 48 5f 0a                                    |FWH_.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/INT0800:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 49 4e  |MODALIAS=acpi:IN|
+00000010  54 30 38 30 30 3a 0a                              |T0800:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:06/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 4e 4b 47 0a                                    |LNKG.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:06/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 46 3a 0a                              |P0C0F:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 0a  |\_SB_.PCI0.LPCB.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:04/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 4e 4b 45 0a                                    |LNKE.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:04/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 46 3a 0a                              |P0C0F:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0B00:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  52 54 43 5f 0a                                    |RTC_.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0B00:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 42 30 30 3a 0a                              |P0B00:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:02/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 4e 4b 43 0a                                    |LNKC.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:02/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 46 3a 0a                              |P0C0F:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 4e 4b 41 0a                                    |LNKA.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 46 3a 0a                              |P0C0F:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0200:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  44 4d 41 43 0a                                    |DMAC.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0200:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 32 30 30 3a 0a                              |P0200:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:07/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 4c 50 43 42 2e  |\_SB_.PCI0.LPCB.|
+00000010  4c 4e 4b 48 0a                                    |LNKH.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/PNP0C0F:07/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 46 3a 0a                              |P0C0F:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:03/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 52 50 30 34 0a  |\_SB_.PCI0.RP04.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:03/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:11/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 53 42 55 53 0a  |\_SB_.PCI0.SBUS.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:11/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:01/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 52 50 30 32 0a  |\_SB_.PCI0.RP02.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:01/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 0a                 |\_SB_.PCI0.|
+0000000b
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/device:0e/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 53 41 54 41 2e  |\_SB_.PCI0.SATA.|
+00000010  50 52 49 44 0a                                    |PRID.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/device:0e/device:0f/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 53 41 54 41 2e  |\_SB_.PCI0.SATA.|
+00000010  50 52 49 44 2e 44 53 4b  30 0a                    |PRID.DSK0.|
+0000001a
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/device:0e/device:0f/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/device:0e/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/device:0e/device:10/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 53 41 54 41 2e  |\_SB_.PCI0.SATA.|
+00000010  50 52 49 44 2e 44 53 4b  31 0a                    |PRID.DSK1.|
+0000001a
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/device:0e/device:10/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 53 41 54 41 0a  |\_SB_.PCI0.SATA.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:09/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 45 48 43 31 2e  |\_SB_.PCI0.EHC1.|
+00000010  48 55 42 37 2e 50 52 54  34 0a                    |HUB7.PRT4.|
+0000001a
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:09/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:07/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 45 48 43 31 2e  |\_SB_.PCI0.EHC1.|
+00000010  48 55 42 37 2e 50 52 54  32 0a                    |HUB7.PRT2.|
+0000001a
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:07/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:0a/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 45 48 43 31 2e  |\_SB_.PCI0.EHC1.|
+00000010  48 55 42 37 2e 50 52 54  35 0a                    |HUB7.PRT5.|
+0000001a
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:0a/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:08/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 45 48 43 31 2e  |\_SB_.PCI0.EHC1.|
+00000010  48 55 42 37 2e 50 52 54  33 0a                    |HUB7.PRT3.|
+0000001a
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:08/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 45 48 43 31 2e  |\_SB_.PCI0.EHC1.|
+00000010  48 55 42 37 0a                                    |HUB7.|
+00000015
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:06/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 45 48 43 31 2e  |\_SB_.PCI0.EHC1.|
+00000010  48 55 42 37 2e 50 52 54  31 0a                    |HUB7.PRT1.|
+0000001a
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:06/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:0b/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 45 48 43 31 2e  |\_SB_.PCI0.EHC1.|
+00000010  48 55 42 37 2e 50 52 54  36 0a                    |HUB7.PRT6.|
+0000001a
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/device:0b/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/device:05/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 45 48 43 31 0a  |\_SB_.PCI0.EHC1.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:04/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 41 30 38 3a 50 4e  50 30 41 30 33 3a 0a     |P0A08:PNP0A03:.|
+0000001f
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:02/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 52 50 30 33 0a  |\_SB_.PCI0.RP03.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:02/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 50 44 52 43 0a  |\_SB_.PCI0.PDRC.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 50 4e  |MODALIAS=acpi:PN|
+00000010  50 30 43 30 32 3a 0a                              |P0C02:.|
+00000017
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/path
+00000000  5c 5f 53 42 5f 2e 50 43  49 30 2e 52 50 30 31 0a  |\_SB_.PCI0.RP01.|
+00000010
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/uevent
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/path
+00000000  5c 5f 53 42 5f 0a                                 |\_SB_.|
+00000006
+EOF
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 4c 4e  |MODALIAS=acpi:LN|
+00000010  58 53 59 42 55 53 3a 0a                           |XSYBUS:.|
+00000018
+EOF
+/sys/devices/LNXSYSTM:00/LNXCPU:00/path
+00000000  5c 5f 50 52 5f 2e 43 50  55 30 0a                 |\_PR_.CPU0.|
+0000000b
+EOF
+/sys/devices/LNXSYSTM:00/LNXCPU:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 4c 4e  |MODALIAS=acpi:LN|
+00000010  58 43 50 55 3a 0a                                 |XCPU:.|
+00000016
+EOF
+/sys/devices/LNXSYSTM:00/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 61 63 70 69 3a 4c 4e  |MODALIAS=acpi:LN|
+00000010  58 53 59 53 54 4d 3a 0a                           |XSYSTM:.|
+00000018
+EOF
+/sys/devices/cpu/uevent
+EOF
+/sys/devices/software/uevent
+EOF
+/sys/devices/intel_bts/uevent
+EOF
+/sys/devices/virtual/vtconsole/vtcon0/uevent
+EOF
+/sys/devices/virtual/vtconsole/vtcon0/name
+00000000  28 53 29 20 64 75 6d 6d  79 20 64 65 76 69 63 65  |(S) dummy device|
+00000010  0a                                                |.|
+00000011
+EOF
+/sys/devices/virtual/thermal/cooling_device1/uevent
+EOF
+/sys/devices/virtual/thermal/cooling_device2/uevent
+EOF
+/sys/devices/virtual/thermal/cooling_device0/uevent
+EOF
+/sys/devices/virtual/mem/mem/uevent
+00000000  4d 41 4a 4f 52 3d 31 0a  4d 49 4e 4f 52 3d 31 0a  |MAJOR=1.MINOR=1.|
+00000010  44 45 56 4e 41 4d 45 3d  6d 65 6d 0a              |DEVNAME=mem.|
+0000001c
+EOF
+/sys/devices/virtual/mem/zero/uevent
+00000000  4d 41 4a 4f 52 3d 31 0a  4d 49 4e 4f 52 3d 35 0a  |MAJOR=1.MINOR=5.|
+00000010  44 45 56 4e 41 4d 45 3d  7a 65 72 6f 0a 44 45 56  |DEVNAME=zero.DEV|
+00000020  4d 4f 44 45 3d 30 36 36  36 0a                    |MODE=0666.|
+0000002a
+EOF
+/sys/devices/virtual/mem/kmsg/uevent
+00000000  4d 41 4a 4f 52 3d 31 0a  4d 49 4e 4f 52 3d 31 31  |MAJOR=1.MINOR=11|
+00000010  0a 44 45 56 4e 41 4d 45  3d 6b 6d 73 67 0a 44 45  |.DEVNAME=kmsg.DE|
+00000020  56 4d 4f 44 45 3d 30 36  34 34 0a                 |VMODE=0644.|
+0000002b
+EOF
+/sys/devices/virtual/mem/full/uevent
+00000000  4d 41 4a 4f 52 3d 31 0a  4d 49 4e 4f 52 3d 37 0a  |MAJOR=1.MINOR=7.|
+00000010  44 45 56 4e 41 4d 45 3d  66 75 6c 6c 0a 44 45 56  |DEVNAME=full.DEV|
+00000020  4d 4f 44 45 3d 30 36 36  36 0a                    |MODE=0666.|
+0000002a
+EOF
+/sys/devices/virtual/mem/urandom/uevent
+00000000  4d 41 4a 4f 52 3d 31 0a  4d 49 4e 4f 52 3d 39 0a  |MAJOR=1.MINOR=9.|
+00000010  44 45 56 4e 41 4d 45 3d  75 72 61 6e 64 6f 6d 0a  |DEVNAME=urandom.|
+00000020  44 45 56 4d 4f 44 45 3d  30 36 36 36 0a           |DEVMODE=0666.|
+0000002d
+EOF
+/sys/devices/virtual/mem/grsec/uevent
+00000000  4d 41 4a 4f 52 3d 31 0a  4d 49 4e 4f 52 3d 31 33  |MAJOR=1.MINOR=13|
+00000010  0a 44 45 56 4e 41 4d 45  3d 67 72 73 65 63 0a 44  |.DEVNAME=grsec.D|
+00000020  45 56 4d 4f 44 45 3d 30  36 32 32 0a              |EVMODE=0622.|
+0000002c
+EOF
+/sys/devices/virtual/mem/null/uevent
+00000000  4d 41 4a 4f 52 3d 31 0a  4d 49 4e 4f 52 3d 33 0a  |MAJOR=1.MINOR=3.|
+00000010  44 45 56 4e 41 4d 45 3d  6e 75 6c 6c 0a 44 45 56  |DEVNAME=null.DEV|
+00000020  4d 4f 44 45 3d 30 36 36  36 0a                    |MODE=0666.|
+0000002a
+EOF
+/sys/devices/virtual/mem/random/uevent
+00000000  4d 41 4a 4f 52 3d 31 0a  4d 49 4e 4f 52 3d 38 0a  |MAJOR=1.MINOR=8.|
+00000010  44 45 56 4e 41 4d 45 3d  72 61 6e 64 6f 6d 0a 44  |DEVNAME=random.D|
+00000020  45 56 4d 4f 44 45 3d 30  36 36 36 0a              |EVMODE=0666.|
+0000002c
+EOF
+/sys/devices/virtual/graphics/fbcon/uevent
+EOF
+/sys/devices/virtual/misc/vga_arbiter/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 36  |MAJOR=10.MINOR=6|
+00000010  33 0a 44 45 56 4e 41 4d  45 3d 76 67 61 5f 61 72  |3.DEVNAME=vga_ar|
+00000020  62 69 74 65 72 0a                                 |biter.|
+00000026
+EOF
+/sys/devices/virtual/misc/autofs/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 32  |MAJOR=10.MINOR=2|
+00000010  33 35 0a 44 45 56 4e 41  4d 45 3d 61 75 74 6f 66  |35.DEVNAME=autof|
+00000020  73 0a                                             |s.|
+00000022
+EOF
+/sys/devices/virtual/misc/network_latency/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 36  |MAJOR=10.MINOR=6|
+00000010  31 0a 44 45 56 4e 41 4d  45 3d 6e 65 74 77 6f 72  |1.DEVNAME=networ|
+00000020  6b 5f 6c 61 74 65 6e 63  79 0a                    |k_latency.|
+0000002a
+EOF
+/sys/devices/virtual/misc/psaux/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 31  |MAJOR=10.MINOR=1|
+00000010  0a 44 45 56 4e 41 4d 45  3d 70 73 61 75 78 0a     |.DEVNAME=psaux.|
+0000001f
+EOF
+/sys/devices/virtual/misc/memory_bandwidth/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 35  |MAJOR=10.MINOR=5|
+00000010  39 0a 44 45 56 4e 41 4d  45 3d 6d 65 6d 6f 72 79  |9.DEVNAME=memory|
+00000020  5f 62 61 6e 64 77 69 64  74 68 0a                 |_bandwidth.|
+0000002b
+EOF
+/sys/devices/virtual/misc/microcode/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 31  |MAJOR=10.MINOR=1|
+00000010  38 34 0a 44 45 56 4e 41  4d 45 3d 63 70 75 2f 6d  |84.DEVNAME=cpu/m|
+00000020  69 63 72 6f 63 6f 64 65  0a                       |icrocode.|
+00000029
+EOF
+/sys/devices/virtual/misc/device-mapper/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 32  |MAJOR=10.MINOR=2|
+00000010  33 36 0a 44 45 56 4e 41  4d 45 3d 6d 61 70 70 65  |36.DEVNAME=mappe|
+00000020  72 2f 63 6f 6e 74 72 6f  6c 0a                    |r/control.|
+0000002a
+EOF
+/sys/devices/virtual/misc/cpu_dma_latency/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 36  |MAJOR=10.MINOR=6|
+00000010  32 0a 44 45 56 4e 41 4d  45 3d 63 70 75 5f 64 6d  |2.DEVNAME=cpu_dm|
+00000020  61 5f 6c 61 74 65 6e 63  79 0a                    |a_latency.|
+0000002a
+EOF
+/sys/devices/virtual/misc/btrfs-control/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 32  |MAJOR=10.MINOR=2|
+00000010  33 34 0a 44 45 56 4e 41  4d 45 3d 62 74 72 66 73  |34.DEVNAME=btrfs|
+00000020  2d 63 6f 6e 74 72 6f 6c  0a                       |-control.|
+00000029
+EOF
+/sys/devices/virtual/misc/hpet/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 32  |MAJOR=10.MINOR=2|
+00000010  32 38 0a 44 45 56 4e 41  4d 45 3d 68 70 65 74 0a  |28.DEVNAME=hpet.|
+00000020
+EOF
+/sys/devices/virtual/misc/fuse/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 32  |MAJOR=10.MINOR=2|
+00000010  32 39 0a 44 45 56 4e 41  4d 45 3d 66 75 73 65 0a  |29.DEVNAME=fuse.|
+00000020
+EOF
+/sys/devices/virtual/misc/kvm/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 32  |MAJOR=10.MINOR=2|
+00000010  33 32 0a 44 45 56 4e 41  4d 45 3d 6b 76 6d 0a     |32.DEVNAME=kvm.|
+0000001f
+EOF
+/sys/devices/virtual/misc/network_throughput/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 36  |MAJOR=10.MINOR=6|
+00000010  30 0a 44 45 56 4e 41 4d  45 3d 6e 65 74 77 6f 72  |0.DEVNAME=networ|
+00000020  6b 5f 74 68 72 6f 75 67  68 70 75 74 0a           |k_throughput.|
+0000002d
+EOF
+/sys/devices/virtual/misc/mcelog/uevent
+00000000  4d 41 4a 4f 52 3d 31 30  0a 4d 49 4e 4f 52 3d 32  |MAJOR=10.MINOR=2|
+00000010  32 37 0a 44 45 56 4e 41  4d 45 3d 6d 63 65 6c 6f  |27.DEVNAME=mcelo|
+00000020  67 0a                                             |g.|
+00000022
+EOF
+/sys/devices/virtual/pps/pps0/path
+00000000  0a                                                |.|
+00000001
+EOF
+/sys/devices/virtual/pps/pps0/uevent
+00000000  4d 41 4a 4f 52 3d 32 34  39 0a 4d 49 4e 4f 52 3d  |MAJOR=249.MINOR=|
+00000010  30 0a 44 45 56 4e 41 4d  45 3d 70 70 73 30 0a     |0.DEVNAME=pps0.|
+0000001f
+EOF
+/sys/devices/virtual/pps/pps0/name
+00000000  70 74 70 30 0a                                    |ptp0.|
+00000005
+EOF
+/sys/devices/virtual/net/lo/address
+00000000  30 30 3a 30 30 3a 30 30  3a 30 30 3a 30 30 3a 30  |00:00:00:00:00:0|
+00000010  30 0a                                             |0.|
+00000012
+EOF
+/sys/devices/virtual/net/lo/uevent
+00000000  49 4e 54 45 52 46 41 43  45 3d 6c 6f 0a 49 46 49  |INTERFACE=lo.IFI|
+00000010  4e 44 45 58 3d 31 0a                              |NDEX=1.|
+00000017
+EOF
+/sys/devices/virtual/tty/tty58/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 38  |MAJOR=4.MINOR=58|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 38 0a     |.DEVNAME=tty58.|
+0000001f
+EOF
+/sys/devices/virtual/tty/ptmx/uevent
+00000000  4d 41 4a 4f 52 3d 35 0a  4d 49 4e 4f 52 3d 32 0a  |MAJOR=5.MINOR=2.|
+00000010  44 45 56 4e 41 4d 45 3d  70 74 6d 78 0a 44 45 56  |DEVNAME=ptmx.DEV|
+00000020  4d 4f 44 45 3d 30 36 36  36 0a                    |MODE=0666.|
+0000002a
+EOF
+/sys/devices/virtual/tty/tty48/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 38  |MAJOR=4.MINOR=48|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 38 0a     |.DEVNAME=tty48.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty1/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 0a  |MAJOR=4.MINOR=1.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 31 0a           |DEVNAME=tty1.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty38/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 38  |MAJOR=4.MINOR=38|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 38 0a     |.DEVNAME=tty38.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty28/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 38  |MAJOR=4.MINOR=28|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 38 0a     |.DEVNAME=tty28.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty56/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 36  |MAJOR=4.MINOR=56|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 36 0a     |.DEVNAME=tty56.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty18/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 38  |MAJOR=4.MINOR=18|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 38 0a     |.DEVNAME=tty18.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty46/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 36  |MAJOR=4.MINOR=46|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 36 0a     |.DEVNAME=tty46.|
+0000001f
+EOF
+/sys/devices/virtual/tty/console/uevent
+00000000  4d 41 4a 4f 52 3d 35 0a  4d 49 4e 4f 52 3d 31 0a  |MAJOR=5.MINOR=1.|
+00000010  44 45 56 4e 41 4d 45 3d  63 6f 6e 73 6f 6c 65 0a  |DEVNAME=console.|
+00000020
+EOF
+/sys/devices/virtual/tty/tty36/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 36  |MAJOR=4.MINOR=36|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 36 0a     |.DEVNAME=tty36.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty26/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 36  |MAJOR=4.MINOR=26|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 36 0a     |.DEVNAME=tty26.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty54/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 34  |MAJOR=4.MINOR=54|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 34 0a     |.DEVNAME=tty54.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty16/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 36  |MAJOR=4.MINOR=16|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 36 0a     |.DEVNAME=tty16.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty8/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 38 0a  |MAJOR=4.MINOR=8.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 38 0a           |DEVNAME=tty8.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty44/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 34  |MAJOR=4.MINOR=44|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 34 0a     |.DEVNAME=tty44.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty34/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 34  |MAJOR=4.MINOR=34|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 34 0a     |.DEVNAME=tty34.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty62/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 32  |MAJOR=4.MINOR=62|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 36 32 0a     |.DEVNAME=tty62.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty24/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 34  |MAJOR=4.MINOR=24|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 34 0a     |.DEVNAME=tty24.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty52/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 32  |MAJOR=4.MINOR=52|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 32 0a     |.DEVNAME=tty52.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty14/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 34  |MAJOR=4.MINOR=14|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 34 0a     |.DEVNAME=tty14.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty6/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 0a  |MAJOR=4.MINOR=6.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 36 0a           |DEVNAME=tty6.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty42/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 32  |MAJOR=4.MINOR=42|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 32 0a     |.DEVNAME=tty42.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty32/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 32  |MAJOR=4.MINOR=32|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 32 0a     |.DEVNAME=tty32.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty60/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 30  |MAJOR=4.MINOR=60|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 36 30 0a     |.DEVNAME=tty60.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty22/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 32  |MAJOR=4.MINOR=22|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 32 0a     |.DEVNAME=tty22.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty50/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 30  |MAJOR=4.MINOR=50|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 30 0a     |.DEVNAME=tty50.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty12/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 32  |MAJOR=4.MINOR=12|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 32 0a     |.DEVNAME=tty12.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty4/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 0a  |MAJOR=4.MINOR=4.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 34 0a           |DEVNAME=tty4.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty40/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 30  |MAJOR=4.MINOR=40|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 30 0a     |.DEVNAME=tty40.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty30/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 30  |MAJOR=4.MINOR=30|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 30 0a     |.DEVNAME=tty30.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty59/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 39  |MAJOR=4.MINOR=59|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 39 0a     |.DEVNAME=tty59.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty20/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 30  |MAJOR=4.MINOR=20|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 30 0a     |.DEVNAME=tty20.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty49/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 39  |MAJOR=4.MINOR=49|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 39 0a     |.DEVNAME=tty49.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty10/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 30  |MAJOR=4.MINOR=10|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 30 0a     |.DEVNAME=tty10.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty2/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 0a  |MAJOR=4.MINOR=2.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 32 0a           |DEVNAME=tty2.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty39/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 39  |MAJOR=4.MINOR=39|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 39 0a     |.DEVNAME=tty39.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty29/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 39  |MAJOR=4.MINOR=29|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 39 0a     |.DEVNAME=tty29.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty57/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 37  |MAJOR=4.MINOR=57|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 37 0a     |.DEVNAME=tty57.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty19/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 39  |MAJOR=4.MINOR=19|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 39 0a     |.DEVNAME=tty19.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty47/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 37  |MAJOR=4.MINOR=47|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 37 0a     |.DEVNAME=tty47.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty0/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 30 0a  |MAJOR=4.MINOR=0.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 30 0a           |DEVNAME=tty0.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty37/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 37  |MAJOR=4.MINOR=37|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 37 0a     |.DEVNAME=tty37.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty27/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 37  |MAJOR=4.MINOR=27|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 37 0a     |.DEVNAME=tty27.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty55/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 35  |MAJOR=4.MINOR=55|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 35 0a     |.DEVNAME=tty55.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty17/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 37  |MAJOR=4.MINOR=17|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 37 0a     |.DEVNAME=tty17.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty9/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 39 0a  |MAJOR=4.MINOR=9.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 39 0a           |DEVNAME=tty9.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty45/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 35  |MAJOR=4.MINOR=45|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 35 0a     |.DEVNAME=tty45.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty/uevent
+00000000  4d 41 4a 4f 52 3d 35 0a  4d 49 4e 4f 52 3d 30 0a  |MAJOR=5.MINOR=0.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 0a 44 45 56 4d  |DEVNAME=tty.DEVM|
+00000020  4f 44 45 3d 30 36 36 36  0a                       |ODE=0666.|
+00000029
+EOF
+/sys/devices/virtual/tty/tty35/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 35  |MAJOR=4.MINOR=35|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 35 0a     |.DEVNAME=tty35.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty63/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 33  |MAJOR=4.MINOR=63|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 36 33 0a     |.DEVNAME=tty63.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty25/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 35  |MAJOR=4.MINOR=25|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 35 0a     |.DEVNAME=tty25.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty53/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 33  |MAJOR=4.MINOR=53|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 33 0a     |.DEVNAME=tty53.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty15/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 35  |MAJOR=4.MINOR=15|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 35 0a     |.DEVNAME=tty15.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty7/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 37 0a  |MAJOR=4.MINOR=7.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 37 0a           |DEVNAME=tty7.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty43/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 33  |MAJOR=4.MINOR=43|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 33 0a     |.DEVNAME=tty43.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty33/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 33  |MAJOR=4.MINOR=33|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 33 0a     |.DEVNAME=tty33.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty61/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 36 31  |MAJOR=4.MINOR=61|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 36 31 0a     |.DEVNAME=tty61.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty23/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 33  |MAJOR=4.MINOR=23|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 33 0a     |.DEVNAME=tty23.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty51/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 31  |MAJOR=4.MINOR=51|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 35 31 0a     |.DEVNAME=tty51.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty13/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 33  |MAJOR=4.MINOR=13|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 33 0a     |.DEVNAME=tty13.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty5/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 35 0a  |MAJOR=4.MINOR=5.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 35 0a           |DEVNAME=tty5.|
+0000001d
+EOF
+/sys/devices/virtual/tty/tty41/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 34 31  |MAJOR=4.MINOR=41|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 34 31 0a     |.DEVNAME=tty41.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty31/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 31  |MAJOR=4.MINOR=31|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 33 31 0a     |.DEVNAME=tty31.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty21/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 32 31  |MAJOR=4.MINOR=21|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 32 31 0a     |.DEVNAME=tty21.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty11/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 31 31  |MAJOR=4.MINOR=11|
+00000010  0a 44 45 56 4e 41 4d 45  3d 74 74 79 31 31 0a     |.DEVNAME=tty11.|
+0000001f
+EOF
+/sys/devices/virtual/tty/tty3/uevent
+00000000  4d 41 4a 4f 52 3d 34 0a  4d 49 4e 4f 52 3d 33 0a  |MAJOR=4.MINOR=3.|
+00000010  44 45 56 4e 41 4d 45 3d  74 74 79 33 0a           |DEVNAME=tty3.|
+0000001d
+EOF
+/sys/devices/virtual/bdi/8:0/uevent
+EOF
+/sys/devices/virtual/workqueue/writeback/uevent
+EOF
+/sys/devices/virtual/workqueue/uevent
+EOF
+/sys/devices/virtual/dmi/id/uevent
+00000000  4d 4f 44 41 4c 49 41 53  3d 64 6d 69 3a 62 76 6e  |MODALIAS=dmi:bvn|
+00000010  63 6f 72 65 62 6f 6f 74  3a 62 76 72 41 44 49 5f  |coreboot:bvrADI_|
+00000020  53 49 4c 56 45 52 53 48  41 44 4f 57 2d 30 31 2e  |SILVERSHADOW-01.|
+00000030  30 30 2e 30 30 2e 30 35  2d 6e 6f 64 65 62 75 67  |00.00.05-nodebug|
+00000040  3a 62 64 30 32 2f 30 31  2f 32 30 31 37 3a 73 76  |:bd02/01/2017:sv|
+00000050  6e 4e 4f 54 53 50 45 43  49 46 49 45 44 3a 70 6e  |nNOTSPECIFIED:pn|
+00000060  4e 4f 54 53 50 45 43 49  46 49 45 44 3a 70 76 72  |NOTSPECIFIED:pvr|
+00000070  4e 4f 54 53 50 45 43 49  46 49 45 44 3a 72 76 6e  |NOTSPECIFIED:rvn|
+00000080  44 65 6c 6c 49 6e 63 2e  3a 72 6e 30 31 54 36 43  |DellInc.:rn01T6C|
+00000090  56 3a 72 76 72 41 30 30  3a 63 76 6e 44 65 6c 6c  |V:rvrA00:cvnDell|
+000000a0  49 6e 63 2e 3a 63 74 33  3a 63 76 72 3a 0a        |Inc.:ct3:cvr:.|
+000000ae
+EOF
+/sys/devices/virtual/input/mice/uevent
+00000000  4d 41 4a 4f 52 3d 31 33  0a 4d 49 4e 4f 52 3d 36  |MAJOR=13.MINOR=6|
+00000010  33 0a 44 45 56 4e 41 4d  45 3d 69 6e 70 75 74 2f  |3.DEVNAME=input/|
+00000020  6d 69 63 65 0a                                    |mice.|
+00000025
+EOF
+/sys/devices/virtual/vc/vcsa5/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 31 33  |MAJOR=7.MINOR=13|
+00000010  33 0a 44 45 56 4e 41 4d  45 3d 76 63 73 61 35 0a  |3.DEVNAME=vcsa5.|
+00000020
+EOF
+/sys/devices/virtual/vc/vcs6/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 36 0a  |MAJOR=7.MINOR=6.|
+00000010  44 45 56 4e 41 4d 45 3d  76 63 73 36 0a           |DEVNAME=vcs6.|
+0000001d
+EOF
+/sys/devices/virtual/vc/vcsa3/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 31 33  |MAJOR=7.MINOR=13|
+00000010  31 0a 44 45 56 4e 41 4d  45 3d 76 63 73 61 33 0a  |1.DEVNAME=vcsa3.|
+00000020
+EOF
+/sys/devices/virtual/vc/vcs4/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 34 0a  |MAJOR=7.MINOR=4.|
+00000010  44 45 56 4e 41 4d 45 3d  76 63 73 34 0a           |DEVNAME=vcs4.|
+0000001d
+EOF
+/sys/devices/virtual/vc/vcsa1/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 31 32  |MAJOR=7.MINOR=12|
+00000010  39 0a 44 45 56 4e 41 4d  45 3d 76 63 73 61 31 0a  |9.DEVNAME=vcsa1.|
+00000020
+EOF
+/sys/devices/virtual/vc/vcs2/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 32 0a  |MAJOR=7.MINOR=2.|
+00000010  44 45 56 4e 41 4d 45 3d  76 63 73 32 0a           |DEVNAME=vcs2.|
+0000001d
+EOF
+/sys/devices/virtual/vc/vcs/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 30 0a  |MAJOR=7.MINOR=0.|
+00000010  44 45 56 4e 41 4d 45 3d  76 63 73 0a              |DEVNAME=vcs.|
+0000001c
+EOF
+/sys/devices/virtual/vc/vcsa6/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 31 33  |MAJOR=7.MINOR=13|
+00000010  34 0a 44 45 56 4e 41 4d  45 3d 76 63 73 61 36 0a  |4.DEVNAME=vcsa6.|
+00000020
+EOF
+/sys/devices/virtual/vc/vcsa4/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 31 33  |MAJOR=7.MINOR=13|
+00000010  32 0a 44 45 56 4e 41 4d  45 3d 76 63 73 61 34 0a  |2.DEVNAME=vcsa4.|
+00000020
+EOF
+/sys/devices/virtual/vc/vcs5/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 35 0a  |MAJOR=7.MINOR=5.|
+00000010  44 45 56 4e 41 4d 45 3d  76 63 73 35 0a           |DEVNAME=vcs5.|
+0000001d
+EOF
+/sys/devices/virtual/vc/vcsa2/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 31 33  |MAJOR=7.MINOR=13|
+00000010  30 0a 44 45 56 4e 41 4d  45 3d 76 63 73 61 32 0a  |0.DEVNAME=vcsa2.|
+00000020
+EOF
+/sys/devices/virtual/vc/vcs3/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 33 0a  |MAJOR=7.MINOR=3.|
+00000010  44 45 56 4e 41 4d 45 3d  76 63 73 33 0a           |DEVNAME=vcs3.|
+0000001d
+EOF
+/sys/devices/virtual/vc/vcsa/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 31 32  |MAJOR=7.MINOR=12|
+00000010  38 0a 44 45 56 4e 41 4d  45 3d 76 63 73 61 0a     |8.DEVNAME=vcsa.|
+0000001f
+EOF
+/sys/devices/virtual/vc/vcs1/uevent
+00000000  4d 41 4a 4f 52 3d 37 0a  4d 49 4e 4f 52 3d 31 0a  |MAJOR=7.MINOR=1.|
+00000010  44 45 56 4e 41 4d 45 3d  76 63 73 31 0a           |DEVNAME=vcs1.|
+0000001d
+EOF
+/sys/devices/cstate_core/uevent
+EOF
+/sys/devices/msr/uevent
+EOF
+/sys/power/state
+00000000  66 72 65 65 7a 65 0a                              |freeze.|
+00000007
+EOF
+/sys/bus/serio/drivers/atkbd/description
+00000000  41 54 20 61 6e 64 20 50  53 2f 32 20 6b 65 79 62  |AT and PS/2 keyb|
+00000010  6f 61 72 64 20 64 72 69  76 65 72 0a              |oard driver.|
+0000001c
+EOF
+/sys/module/firmware_class/parameters/path
+EOF

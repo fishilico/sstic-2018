@@ -1,0 +1,51 @@
+\newcommand{\frameblock}[1]{
+    \draw ([xshift=-2cm,yshift=-1.3ex] #1) rectangle ([xshift=2cm,yshift=1.3ex] #1);
+}
+
+\newcommand{\xorkey}[3]{
+    \node[below of=#1, node distance=.9cm, scale=1.5] (xorkey_#2) {};
+    \node[below of=xorkey_#2, node distance=0cm, scale=1.5] (xorkey_#2_text) {$\oplus$};
+    \draw[->] (#1) -- (xorkey_#2);
+
+    \node[left of=xorkey_#2, node distance=3.5cm] (key_#2) {};
+    \node[left of=key_#2, node distance=0cm] (key_#2_text) {#3};
+    \node[right of=key_#2, node distance=1.9cm] (key_#2_right) {};
+    \draw[->] (key_#2_right) -- (xorkey_#2);
+    \frameblock{key_#2}
+}
+\newcommand{\decFct}[3]{
+    \node[below of=#1, node distance=.9cm] (#1_#2) {#3};
+    \draw[->] (#1) -- (#1_#2);
+}
+\newcommand{\oneRound}[3]{
+    \xorkey{#1}{#2}{#3}
+    \decFct{xorkey_#2}{P}{$P^{-1}$}
+    \decFct{xorkey_#2_P}{S}{$S$}
+    \decFct{xorkey_#2_P_S}{D}{$D$}
+}
+\newcommand{\twoRounds}[2]{
+    \oneRound{#1}{Y#2}{$Y_{#2}$}
+    \oneRound{xorkey_Y#2_P_S_D}{X#2}{$X_{#2}$}
+}
+
+\begin{center}
+\begin{tikzpicture}[node distance=2cm,auto,>=stealth']
+
+    \node[text width=3cm, align=center] (block) {$B$};
+    \frameblock{block}
+    \twoRounds{block}{32}
+    \oneRound{xorkey_X32_P_S_D}{Y24}{$Y_{24}$}
+    \decFct{xorkey_Y24_P_S_D}{ell}{\ldots}
+    \oneRound{xorkey_Y24_P_S_D_ell}{Y0}{$Y_0$}
+    \xorkey{xorkey_Y0_P_S_D}{X0}{$X_0$}
+    \decFct{xorkey_X0}{S}{$S$}
+    \decFct{xorkey_X0_S}{final}{Bloc déchiffré}
+    \frameblock{xorkey_X0_S_final}
+
+\end{tikzpicture}
+\end{center}
+\let\frameblock\undefined
+\let\xorkey\undefined
+\let\decFct\undefined
+\let\oneRound\undefined
+\let\twoRounds\undefined

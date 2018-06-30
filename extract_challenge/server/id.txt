@@ -1,0 +1,1 @@
+uid=1000(sstic) gid=1000(sstic) groups=1000(sstic),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),108(netdev),64040(grsec-tpe),64042(grsec-sock-clt)

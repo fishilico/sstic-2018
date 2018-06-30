@@ -1,0 +1,75 @@
+\newcommand{\memchunkWithWidth}[5]{% args: origin node, name of chunk, chunksize, name, width
+    \node[right of=#1, node distance=.6cm] (#2_cksize_top) {};
+    \node[below of=#1, node distance=.5cm, xshift=.3cm, rotate=90] (#2_cksize_text) {\texttt{#3}};
+    \node[right of=#1, node distance=#5] (#2_end) {};
+
+    \node[below of=#1, node distance=1cm] (#2_bottom) {};
+    \node[below of=#2_cksize_top, node distance=1cm] (#2_cksize_bottom) {};
+    \node[above of=#2_cksize_top, node distance=.8cm] (#2_pointer) {#4};
+
+    \draw (#1) rectangle (#2_cksize_bottom);
+    \draw (#2_cksize_bottom) rectangle (#2_end);
+    \draw[->] (#2_pointer) -- (#2_cksize_top);
+}
+\newcommand{\memchunkFiftyEight}[4]{% args: origin node, name of chunk, chunksize, name
+    \memchunkWithWidth{#1}{#2}{#3}{#4}{2cm};
+}
+\newcommand{\memchunkEighty}[4]{
+    \memchunkWithWidth{#1}{#2}{#3}{#4}{3cm};
+}
+\newcommand{\memchunkHundredEight}[4]{
+    \memchunkWithWidth{#1}{#2}{#3}{#4}{5cm};
+}
+\newcommand{\transition}[3] {
+    \node[below of=#1, node distance=1cm] (trans_#1_#2) {};
+    \node[below of=trans_#1_#2, node distance=2.5cm] (#2) {};
+    \draw[->] (trans_#1_#2) to [out=-135,in=135] (#2);
+
+    \node[below of=trans_#1_#2, node distance=.9cm, anchor=west, xshift=-.4cm] (trans_text_#1_#2) {#3};
+}
+\begin{tikzpicture}[node distance=2cm,auto,>=stealth']
+
+    \node[] (line1) {};
+
+    \memchunkFiftyEight{line1}{l1t4}{0x61}{\texttt{t4}}
+
+    \transition{line1}{line2}{\texttt{realloc(t5, 0x80)}: \texttt{t5} est déplacé en haut de l'arène, juste après \texttt{t4}}
+
+    \memchunkFiftyEight{line2}{l2t4}{0x61}{\texttt{t4}}
+    \memchunkEighty{l2t4_end}{l2t5}{0x91}{\texttt{t5}}
+
+    \transition{line2}{line_newcon}{Un 7\textsuperscript{e} agent se connecte: \texttt{realloc(table de routage, 0x108)}, \texttt{realloc(t6, 0x58)}}
+
+    \memchunkFiftyEight{line_newcon}{line_newcon_t4}{0x61}{\texttt{t4}}
+    \memchunkEighty{line_newcon_t4_end}{line_newcon_t5}{0x91}{\texttt{t5}}
+    \memchunkHundredEight{line_newcon_t5_end}{line_newcon_rt}{0x111}{table de routage = \texttt{t5+0x90}}
+    \memchunkFiftyEight{line_newcon_rt_end}{line_newcon_t6}{0x61}{\texttt{t6 = t5+0x1a0}}
+
+    \transition{line_newcon}{line_overflow1a1}{Ajout d'un 12\textsuperscript{e} ID agent, \texttt{0x1a1}, dans \texttt{t4}, ce qui étend la taille du \emph{chunk} de \texttt{t5}}
+
+    \memchunkFiftyEight{line_overflow1a1}{line_overflow1a1_t4}{0x61}{\texttt{t4}}
+    \memchunkEighty{line_overflow1a1_t4_end}{line_overflow1a1_t5}{\color{red}{0x1a1}}{\texttt{t5}}
+    \memchunkHundredEight{line_overflow1a1_t5_end}{line_overflow1a1_rt}{0x111}{table de routage = \texttt{t5+0x90}}
+    \memchunkFiftyEight{line_overflow1a1_rt_end}{line_overflow1a1_t6}{0x61}{\texttt{t6 = t5+0x1a0}}
+    \draw[color=red,thick,dashed] (line_overflow1a1_t4_end.north) rectangle (line_overflow1a1_t6_bottom.south);
+
+    \transition{line_overflow1a1}{line_realloct5}{\texttt{realloc(t5, 0xa8)}}
+
+    \memchunkFiftyEight{line_realloct5}{line_realloct5_t4}{0x61}{\texttt{t4}}
+    \memchunkEighty{line_realloct5_t4_end}{line_realloct5_t5}{\color{red}{0xb1}}{\texttt{t5}}
+    \memchunkHundredEight{line_realloct5_t5_end}{line_realloct5_rt}{0x111}{table de routage = \texttt{t5+0x90}}
+    \memchunkFiftyEight{line_realloct5_rt_end}{line_realloct5_t6}{0x61}{\texttt{t6 = t5+0x1a0}}
+    \node[left of=line_realloct5_rt_end, node distance=2cm] (line_realloct5_freemempos) {};
+    \memchunkFiftyEight{line_realloct5_freemempos}{line_realloct5_freemem}{0xf1}{\emph{(libre)}}
+    \draw[color=red,thick,dashed] (line_realloct5_t4_end.north) rectangle (line_realloct5_freemem_bottom.south);
+
+
+    % Space after the figure
+    \node[below of=line_realloct5, node distance=2cm] {};
+
+\end{tikzpicture}
+\let\memchunkWithWidth\undefined
+\let\memchunkFiftyEight\undefined
+\let\memchunkEighty\undefined
+\let\memchunkHundredEight\undefined
+\let\transition\undefined

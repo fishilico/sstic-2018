@@ -1,0 +1,115 @@
+\newcommand{\memchunkWithWidth}[5]{% args: origin node, name of chunk, chunksize, name, width
+    \node[right of=#1, node distance=.6cm] (#2_cksize_top) {};
+    \node[below of=#1, node distance=.5cm, xshift=.3cm, rotate=90] (#2_cksize_text) {\texttt{#3}};
+    \node[right of=#1, node distance=#5] (#2_end) {};
+
+    \node[below of=#1, node distance=1cm] (#2_bottom) {};
+    \node[below of=#2_cksize_top, node distance=1cm] (#2_cksize_bottom) {};
+    \node[above of=#2_cksize_top, node distance=.65cm] (#2_pointer) {#4};
+
+    \draw (#1) rectangle (#2_cksize_bottom);
+    \draw (#2_cksize_bottom) rectangle (#2_end);
+    \draw[->] (#2_pointer) -- (#2_cksize_top);
+}
+\newcommand{\memchunkFiftyEight}[4]{% args: origin node, name of chunk, chunksize, name
+    \memchunkWithWidth{#1}{#2}{#3}{#4}{1.5cm};
+}
+\newcommand{\memchunkEighty}[4]{
+    \memchunkWithWidth{#1}{#2}{#3}{#4}{2.5cm};
+}
+\newcommand{\transitionDirecte}[3] {
+    \node[below of=#1, node distance=1.8cm] (#2) {};
+    \draw[->] (#1) to [out=-135,in=135] (#2);
+    \node[below of=#1, node distance=.6cm, anchor=west, xshift=-.4cm] (trans_text_#1_#2) {#3};
+}
+\newcommand{\transition}[3] {
+    \node[below of=#1, node distance=1cm] (trans_#1_#2) {};
+    \transitionDirecte{trans_#1_#2}{#2}{#3};
+}
+\begin{tikzpicture}[node distance=2cm,auto,>=stealth']
+
+    \node[] (au_debut_etait_le_neant) {};
+
+    \transitionDirecte{au_debut_etait_le_neant}{reallocs4}{\texttt{realloc(t0, 0x58)}, \texttt{realloc(t1, 0x58)}, \texttt{realloc(t2, 0x58)}, \texttt{realloc(t3, 0x58)}}
+
+    \memchunkFiftyEight{reallocs4}{reallocs4_t0}{0x61}{\texttt{t0}}
+    \memchunkFiftyEight{reallocs4_t0_end}{reallocs4_t1}{0x61}{\texttt{t1}}
+    \memchunkFiftyEight{reallocs4_t1_end}{reallocs4_t2}{0x61}{\texttt{t2}}
+    \memchunkFiftyEight{reallocs4_t2_end}{reallocs4_t3}{0x61}{\texttt{t3}}
+
+    \transition{reallocs4}{over_t2}{Ajout d'un 12\textsuperscript{e} ID agent, \texttt{0x61}, dans \texttt{t2}, ce qui ne change pas la taille du \emph{chunk} de \texttt{t3}}
+
+    \transitionDirecte{over_t2}{realloc_t2}{Ajout d'un 13\textsuperscript{e} ID agent, dans \texttt{t2}, ce qui déclenche \texttt{realloc(t2, 0x80)}}
+
+    \memchunkFiftyEight{realloc_t2}{realloc_t2_t0}{0x61}{\texttt{t0}}
+    \memchunkFiftyEight{realloc_t2_t0_end}{realloc_t2_t1}{0x61}{\texttt{t1}}
+    \memchunkFiftyEight{realloc_t2_t1_end}{realloc_t2_t2free}{0x61}{\emph{(tcache[0x60])}}
+    \memchunkFiftyEight{realloc_t2_t2free_end}{realloc_t2_t3}{0x61}{\texttt{t3}}
+    \memchunkEighty{realloc_t2_t3_end}{realloc_t2_t2}{0x91}{\texttt{t2}}
+
+    \transition{realloc_t2}{realloc_t3}{Ajout d'un 12\textsuperscript{e} ID agent, \texttt{0x91}, dans \texttt{t3}, puis d'un 13\textsuperscript{e} ID agent, \texttt{realloc(t3, 0x80)}}
+
+    \memchunkFiftyEight{realloc_t3}{realloc_t3_t0}{0x61}{\texttt{t0}}
+    \memchunkFiftyEight{realloc_t3_t0_end}{realloc_t3_t1}{0x61}{\texttt{t1}}
+    \memchunkFiftyEight{realloc_t3_t1_end}{realloc_t3_t2free}{0x61}{\emph{(tcache)}}
+    \memchunkFiftyEight{realloc_t3_t2free_end}{realloc_t3_t3free}{0x61}{\emph{(tcache)}}
+    \memchunkEighty{realloc_t3_t3free_end}{realloc_t3_t2}{0x91}{\texttt{t2}}
+    \memchunkEighty{realloc_t3_t2_end}{realloc_t3_t3}{0x91}{\texttt{t3}}
+
+    \transition{realloc_t3}{realloc_t5}{\texttt{realloc(t5, 0x58)}}
+
+    \memchunkFiftyEight{realloc_t5}{realloc_t5_t0}{0x61}{\texttt{t0}}
+    \memchunkFiftyEight{realloc_t5_t0_end}{realloc_t5_t1}{0x61}{\texttt{t1}}
+    \memchunkFiftyEight{realloc_t5_t1_end}{realloc_t5_t2free}{0x61}{\emph{(tcache)}}
+    \memchunkFiftyEight{realloc_t5_t2free_end}{realloc_t5_t3free}{0x61}{\emph{(tcache)}}
+    \memchunkEighty{realloc_t5_t3free_end}{realloc_t5_t2}{0x91}{\texttt{t2}}
+    \memchunkEighty{realloc_t5_t2_end}{realloc_t5_t3}{0x91}{\texttt{t3}}
+    \memchunkFiftyEight{realloc_t5_t3_end}{realloc_t5_t5}{0x61}{\texttt{t5 = t1 + 0x240}}
+
+    \transition{realloc_t5}{over_t0}{Ajout d'un 12\textsuperscript{e} ID agent, \texttt{0x241}, dans \texttt{t0}, ce qui étend la taille du \emph{chunk} de \texttt{t1} à \texttt{0x240}.}
+
+    \memchunkFiftyEight{over_t0}{over_t0_t0}{0x61}{\texttt{t0}}
+    \memchunkFiftyEight{over_t0_t0_end}{over_t0_t1}{\color{red}{0x241}}{\texttt{t1}}
+    \memchunkFiftyEight{over_t0_t1_end}{over_t0_t2free}{0x61}{\emph{(tcache)}}
+    \memchunkFiftyEight{over_t0_t2free_end}{over_t0_t3free}{0x61}{\emph{(tcache)}}
+    \memchunkEighty{over_t0_t3free_end}{over_t0_t2}{0x91}{\texttt{t2}}
+    \memchunkEighty{over_t0_t2_end}{over_t0_t3}{0x91}{\texttt{t3}}
+    \memchunkFiftyEight{over_t0_t3_end}{over_t0_t5}{0x61}{\texttt{t5 = t1 + 0x240}}
+    \draw[color=red,thick,dashed] (over_t0_t0_end.north) rectangle (over_t0_t5_bottom.south);
+
+    \transition{over_t0}{reco_t1}{Déconnexion du second agent puis reconnexion (pour conserver 6 connexions actives)}
+
+    \memchunkFiftyEight{reco_t1}{reco_t1_t0}{0x61}{\texttt{t0}}
+    \memchunkFiftyEight{reco_t1_t0_end}{reco_t1_t1}{\color{red}{0x241}}{\color{red}{\emph{(tcache)}}}
+    \memchunkFiftyEight{reco_t1_t1_end}{reco_t1_t2free}{0x61}{\emph{(tcache)}}
+    \memchunkFiftyEight{reco_t1_t2free_end}{reco_t1_t3free}{0x61}{\emph{(tcache)}}
+    \memchunkEighty{reco_t1_t3free_end}{reco_t1_t2}{0x91}{\texttt{t2}}
+    \memchunkEighty{reco_t1_t2_end}{reco_t1_t3}{0x91}{\texttt{t3}}
+    \memchunkFiftyEight{reco_t1_t3_end}{reco_t1_t5}{0x61}{\texttt{t5}}
+    \draw[color=red,thick,dashed] (reco_t1_t0_end.north) rectangle (reco_t1_t5_bottom.south);
+
+    \transition{reco_t1}{realloc_t4}{\texttt{realloc(t4, 0x58)}}
+
+    \memchunkFiftyEight{realloc_t4}{realloc_t4_t0}{0x61}{\texttt{t0}}
+    \memchunkFiftyEight{realloc_t4_t0_end}{realloc_t4_t1}{\color{red}{0x241}}{\color{red}{\emph{(tcache)}}}
+    \memchunkFiftyEight{realloc_t4_t1_end}{realloc_t4_t2free}{0x61}{\emph{(tcache)}}
+    \memchunkFiftyEight{realloc_t4_t2free_end}{realloc_t4_t3free}{0x61}{\emph{(tcache)}}
+    \memchunkEighty{realloc_t4_t3free_end}{realloc_t4_t2}{0x91}{\texttt{t2}}
+    \memchunkEighty{realloc_t4_t2_end}{realloc_t4_t3}{0x91}{\texttt{t3}}
+    \memchunkFiftyEight{realloc_t4_t3_end}{realloc_t4_t5}{0x61}{\texttt{t5}}
+    \memchunkFiftyEight{realloc_t4_t5_end}{realloc_t4_t4}{0x61}{\texttt{t4}}
+    \draw[color=red,thick,dashed] (realloc_t4_t0_end.north) rectangle (realloc_t4_t5_bottom.south);
+
+    \transition{realloc_t4}{realloc_t5big}{Ajout d'un 12\textsuperscript{e} ID agent, \texttt{0x21}, dans \texttt{t5}, puis d'un 13\textsuperscript{e} ID agent, \texttt{realloc(t5, 0x80)}}
+
+    \node[right of=realloc_t5big, node distance=8cm] (realloc_t5big_dbox_end) {};
+    \memchunkFiftyEight{realloc_t5big_dbox_end}{realloc_t5big_t5free}{0x61}{\emph{(tcache)}}
+    \memchunkFiftyEight{realloc_t5big_t5free_end}{realloc_t5big_t4}{\color{red}{0x21}}{\texttt{t4}}
+    \memchunkEighty{realloc_t5big_t4_end}{realloc_t5big_t5}{0x91}{\texttt{t5}}
+    \draw[dashed] (realloc_t5big) rectangle (realloc_t5big_t5free_bottom);
+
+\end{tikzpicture}
+\let\memchunkWithWidth\undefined
+\let\memchunkFiftyEight\undefined
+\let\memchunkEighty\undefined
+\let\transition\undefined
